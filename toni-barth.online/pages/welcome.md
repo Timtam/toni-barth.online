@@ -11,7 +11,7 @@
 
 # Welcome to my nerdspace!
 
-![A profile picture of me](/images/profile.jpg)
+{{% thumbnail "/images/profile.jpg" alt="A profile picture of me" align="center" %}}{{% /thumbnail %}}
 
 My name is Toni Barth, and this is my website. I'm a software developer, teacher, IT administrator, hobby musician and human being, and this webpage will serve as a central hub to get to my various topic-related subpages. You can also follow the links within the top navigation to all the various places you're interested in.
 
@@ -21,7 +21,7 @@ My name is Toni Barth, and this is my website. I'm a software developer, teacher
 
 ## The person
 
-You can find all information directly related to me on this website, including my carreer and my education.
+You can find all information directly related to me on this website, including my career and my education.
 
 ## {{% doc %}}Music <music>{{% /doc %}}
 
@@ -33,4 +33,4 @@ This page lists all my various social media accounts, GitHub page and every poss
 
 ## {{% doc %}}Support <support>{{% /doc %}}
 
-In the case that you want to support my work, you can find all possible ways to do so here. Please note however that I don't rely on your support as i'm working fulltime anyway.
+In the case that you want to support my work, you can find all possible ways to do so here. Please note however that I don't rely on your support as I'm working fulltime anyway.
