@@ -17,11 +17,11 @@ Mein Name ist Toni Barth. Derzeit arbeite ich als Softwareentwickler, Dozent und
 
 ## Schulungen
 
-Sollten Sie nach dem Durchforsten dieser Webseite neugierig geworden sein und sich für Themen der Softwareentwicklung oder Audiobearbeitung interessieren, können Sie mich gern günstig und unkompliziert buchen, um eine persönliche Schulung durchzuführen. Die einzige Voraussetzung ist, dass ich mich mit dem von Ihnen gewünschten Thema auskenne und wir ein gutes Gefühl miteinander haben. Bei Interesse schauen Sie doch gern einmal auf meiner Unterseite für Schulungen vorbei, die erste Stunde ist immer kostenlos!
+Sollten Sie nach dem Durchforsten dieser Webseite neugierig geworden sein und sich für Themen der Softwareentwicklung oder Audiobearbeitung interessieren, können Sie mich gern günstig und unkompliziert buchen, um eine persönliche Schulung durchzuführen. Die einzige Voraussetzung ist, dass ich mich mit dem von Ihnen gewünschten Thema auskenne und wir ein gutes Gefühl miteinander haben. Bei Interesse schauen Sie doch gern einmal auf {{% doc %}}meiner Unterseite für Schulungen vorbei <teaching>{{% /doc %}}, die erste Stunde ist immer kostenlos!
 
 ## Kontakt
 
-In dem Fall, dass Sie zu mir Kontakt aufnehmen möchten, finden Sie alle denkbaren Wege {{% doc %}}auf der dafür vorgesehenen Unterseite <contact>{{% /doc %}}.
+Sollten Sie zu mir Kontakt aufnehmen wollen, finden Sie alle denkbaren Wege {{% doc %}}auf der dafür vorgesehenen Unterseite <contact>{{% /doc %}}.
 
 ## Unterstützung
 

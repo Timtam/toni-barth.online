@@ -19,7 +19,7 @@ My name is Toni Barth, and i'm currently working as a software developer, IT adm
 
 ## Teaching
 
-In the case that you're seeking personal tutoring on various programming-related or music/audio editing topics and feel comfortable with me as a person and teacher, i'm offering my services on whichever topic you're interested in, as long as I know my way around it. And the best thing: its affordable, and there are no strings attached. Please check out my dedicated subpage about teaching.
+In the case that you're seeking personal tutoring on various programming-related or music/audio editing topics and feel comfortable with me as a person and teacher, i'm offering my services on whichever topic you're interested in, as long as I know my way around it. And the best thing: its affordable, and there are no strings attached. Please check out my {{% doc %}}dedicated subpage about teaching <teaching>{{% /doc %}}.
 
 ## Getting in touch
 

@@ -143,6 +143,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Home"),
         ("/music/index.html", "Music"),
+        ("/teaching/index.html", "Teaching"),
         ("/contact/index.html", "Contact"),
         ("/support/index.html", "Support Me"),
         ("/privacy-policy/index.html", "Privacy Policy"),
@@ -150,6 +151,7 @@ NAVIGATION_LINKS = {
 
     "de": (
         ("/de/index.html", "Startseite"),
+        ("/de/teaching/index.html", "Schulungen"),
         ("/de/imprint/index.html", "Impressum"),
         ("/de/privacy-policy/index.html", "Datenschutzerklärung"),
     ),
