@@ -149,7 +149,7 @@ NAVIGATION_LINKS = {
     ),
 
     "de": (
-        ("/de/index.html", "Home"),
+        ("/de/index.html", "Startseite"),
         ("/de/imprint/index.html", "Impressum"),
         ("/de/privacy-policy/index.html", "Datenschutzerklärung"),
     ),

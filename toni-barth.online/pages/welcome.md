@@ -9,28 +9,22 @@
 .. type: text
 -->
 
-# Welcome to my nerdspace!
+# Welcome to my website!
 
 {{% thumbnail "/images/profile.jpg" alt="A profile picture of me" align="center" %}}{{% /thumbnail %}}
 
-My name is Toni Barth, and this is my website. I'm a software developer, teacher, IT administrator, hobby musician and human being, and this webpage will serve as a central hub to get to my various topic-related subpages. You can also follow the links within the top navigation to all the various places you're interested in.
+My name is Toni Barth, and i'm currently working as a software developer, IT administrator and teacher whilst enjoying the art of creating music in my spare time. Please check out the various links in the navigation area to find out more about my hobby and crafts.
 
 **Oh, wait, did I forget to mention that i'm blind too? Well, here you go.**
 
-# Who am I?
+## Teaching
 
-## The person
+In the case that you're seeking personal tutoring on various programming-related or music/audio editing topics and feel comfortable with me as a person and teacher, i'm offering my services on whichever topic you're interested in, as long as I know my way around it. And the best thing: its affordable, and there are no strings attached. Please check out my dedicated subpage about teaching.
 
-You can find all information directly related to me on this website, including my career and my education.
+## Getting in touch
 
-## {{% doc %}}Music <music>{{% /doc %}}
+I've got a dedicated page where you can find all my accounts, social media presences and everything that can help you in the case that you want to reach out to me. {{% doc %}}Follow me! <contact>{{% /doc %}}
 
-I'm especially interested in all kinds of musical topics, which is exactly the reason why I started a YouTube channel on all of that, called [Toni Barth Music](https://www.youtube.com/@tonibarthmusic). Everything related to my musical presence can be found here.
+## Do you want to support my work?
 
-## {{% doc %}}Contact <contact>{{% /doc %}}
-
-This page lists all my various social media accounts, GitHub page and every possible way you can use to reach out to me.
-
-## {{% doc %}}Support <support>{{% /doc %}}
-
-In the case that you want to support my work, you can find all possible ways to do so here. Please note however that I don't rely on your support as I'm working fulltime anyway.
+In the case that you want to support me financially, you can find all possible ways to do so {{% doc %}}on the dedicated support page <support>{{% /doc %}}. Please note however that I don't rely on your support as I'm working fulltime anyway.
