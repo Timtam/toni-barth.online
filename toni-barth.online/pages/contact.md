@@ -17,6 +17,4 @@ In the case that you want to contact me for whatever reason, you can find a list
 * LinkedIn: <https://www.linkedin.com/in/toni-barth-a54071174/>
 * GitHub: <https://github.com/Timtam>
 * Threema: [My Threema ID](https://threema.id/CFHJKK5N)
-* Twitter (private): [@GixGax95](https://mobile.twitter.com/gixgax95)
-* Twitter (everything music): [@ToniBarthMusic](https://mobile.twitter.com/tonibarthmusic)
 * Mastodon: [@ToniBarth@troet.cafe](https://troet.cafe/@tonibarth)

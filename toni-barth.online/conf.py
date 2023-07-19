@@ -152,6 +152,8 @@ NAVIGATION_LINKS = {
     "de": (
         ("/de/index.html", "Startseite"),
         ("/de/teaching/index.html", "Schulungen"),
+        ("/de/contact/index.html", "Kontakt"),
+        ("/de/support/index.html", "Unterstützung"),
         ("/de/imprint/index.html", "Impressum"),
         ("/de/privacy-policy/index.html", "Datenschutzerklärung"),
     ),
