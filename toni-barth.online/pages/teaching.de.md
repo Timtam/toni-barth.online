@@ -16,10 +16,11 @@ Wünschen Sie eine personalisierte, auf ihre Bedürfnisse zugeschnittene Schulun
 ## Was kann ich Ihnen vermitteln
 
 * Softwareentwicklung:
-    - Programmiersprachen: C/C++, Python, JavaScript/TypeScript, HTML, Lua
+    - Programmiersprachen: C/C++, Python, JavaScript/TypeScript, HTML, Lua, AutoHotkey
     - Programmierparadigmen: objektorientierte Programmierung (OOP), funktionale Programmierung und mehr
     - Versionskontrollsysteme wie Git, SVN: worum geht es und wie verwendet man sie, und wie bediene ich die wichtigsten Plattformen im Web (GitHub, GitLab etc)
     - Containerisierung: Docker, Kubernetes etc.
+    - Erstellung von sog. Accessibility Overlays für ansonsten unzugängliche Software mithilfe von AutoHotkey (Hinweis: sehende Hilfe ist letztendlich allerdings unerlässlich)
 * Audiobearbeitung:
     - Audiobearbeitung unter Windows
     - Verwendung von REAPER für bspw. Hörbuchproduktion, Musikproduktion, Komposition, Mixing, Mastering, Sound Design
@@ -27,6 +28,14 @@ Wünschen Sie eine personalisierte, auf ihre Bedürfnisse zugeschnittene Schulun
     - welche Audiotechnik ist die Beste/Zugänglichste für ihren vorgesehenen Einsatzzweck
     - wie Sie sich sorgenfrei im Native Instruments Ökosystem (Komplete Kontrol, Kontakt etc) bewegen
     - Field Recording: was ist das, wie kann dies als blinde Person am Besten angewandt werden, Tipps und Tricks
+* Halten von Videopräsentationen und Erstellen von Videoinhalten:
+    - Bildschirmaufnahme unter Windows
+    - Bedienung von OBS (Open Broadcaster Software)
+    - wie Sie ihre Stimme und ihr System-Audio aufzeichnen können
+    - wie Sie nur spezifische Anwendungen ihres PCs Aufzeichnen können
+    - Verwendung von Plug-Ins und Effekten zur Verbesserung der Sprachqualität in Live-Situationen
+    - Aufsetzen einer professionellen Videoumgebung für Streaming auf Twitch, YouTube u.A.
+    - Aufzeichnung und Bearbeitung von Videos mit OBS und REAPER
 
 ## Die erste Einheit ist immer kostenlos!
 

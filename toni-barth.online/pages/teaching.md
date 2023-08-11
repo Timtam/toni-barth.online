@@ -16,10 +16,11 @@ Do you want a personalized one on one teaching experience with another blind per
 ## What can you learn from me?
 
 * related to software development:
-    - programming languages: C/C++, Python, JavaScript/TypeScript, HTML, Lua
+    - programming languages: C/C++, Python, JavaScript/TypeScript, HTML, Lua, AutoHotkey
     - programming paradigms: object-oriented programming (OOP), functional programming, and more.
     - version control systems like Git and SVN: what they are, and how to use the major platforms like GitHub, GitLab etc.
     - containerization: Docker, Kubernetes etc.
+    - creating accessibility overlays for otherwise inaccessible software with the help of AutoHotkey (NOTE: this will inevitably require sighted assistance)
 * audio-related:
     - audio-production on Windows
     - how to use REAPER for tasks like audio book production, music production, composing, mixing, mastering, sound designing
@@ -27,7 +28,15 @@ Do you want a personalized one on one teaching experience with another blind per
     - which audio gear is the best and most accessible for your budget
     - how to survive in the Native Instruments eco-system (Komplete Kontrol, Kontakt etc)
     - field recording: what and how, especially if you're blind
-
+* live presentations and creating video content:
+    - screen capture on Windows
+    - how to navigate OBS (Open Broadcaster Software) quickly and efficiently
+    - how to record your voice and your system audio in a professional way using OBS
+    - how to record only specific apps on your system
+    - how to use plug-ins and effects to sweeten your voice in a live presentation scenario
+    - how to build a professional live-streaming setup for Twitch, YouTube etc.
+    - how to record and edit videos using OBS and REAPER
+    
 ## First session is free!
 
 No matter your decision, our first meet-up will always be free. This ensures that we both are happy with your decision and we get to flow with each other, understanding your obstacles, and how to surpass them to reach your goals. There is no obligation whatsoever to commit into further sessions should the initial session not suit your expectations.
