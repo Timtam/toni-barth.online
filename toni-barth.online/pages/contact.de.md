@@ -11,7 +11,7 @@
 
 # Kontakt
 
-Wenn Sie mit mir Kontakt aufnehmen möchten, finden Sie unten eine Liste von möglichen Kanälen. Ich freue mich immer, von Ihnen zu hören:
+Wenn Du mit mir Kontakt aufnehmen möchtest, findest du unten eine Liste von möglichen Kanälen. Ich freue mich immer, von dir zu hören:
 
 * [Email](mailto:contact@toni-barth.online)
 * LinkedIn: <https://www.linkedin.com/in/toni-barth-a54071174/>

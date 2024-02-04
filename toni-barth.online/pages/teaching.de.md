@@ -11,9 +11,9 @@
 
 # Schulungen
 
-Wünschen Sie eine personalisierte, auf ihre Bedürfnisse zugeschnittene Schulung durch eine Person, welche auch auf besondere Ansprüche von Screen Reader Nutzern Rücksicht nehmen und aus eigener Erfahrung berichten kann? Damit kann ich Ihnen weiterhelfen! Bevor ich Ihnen die Dinge aufzähle, die ich Ihnen vermitteln kann, möchte ich Ihnen jedoch ans Herz legen, meinem YouTube-Kanal einen kurzen Besuch abzustatten. Dort lade ich regelmäßig Video-Tutorials zu allen möglichen Themen der Audiobearbeitung hoch. Diese sind zwar auf Englisch, können aber möglicherweise trotzdem einen Einblick in die Art und Weise geben, auf welche ich arbeite, und Ihnen so schon vorab eröffnen, ob wir gut zusammenarbeiten können oder nicht: [Hier geht es zu meinem YouTube-Kanal](https://www.youtube.com/@tonibarthmusic)
+Wünschst du eine personalisierte, auf deine Bedürfnisse zugeschnittene Schulung durch eine Person, welche auch auf besondere Ansprüche von Screen Reader Nutzern Rücksicht nehmen und aus eigener Erfahrung berichten kann? Damit kann ich dir weiterhelfen! Bevor ich dir die Dinge aufzähle, die ich dir vermitteln kann, möchte ich dir jedoch ans Herz legen, meinem YouTube-Kanal einen kurzen Besuch abzustatten. Dort lade ich regelmäßig Video-Tutorials zu allen möglichen Themen der Audiobearbeitung hoch. Diese sind zwar auf Englisch, können aber möglicherweise trotzdem einen Einblick in die Art und Weise geben, auf welche ich arbeite, und dir so schon vorab eröffnen, ob wir gut zusammenarbeiten können oder nicht: [Hier geht es zu meinem YouTube-Kanal](https://www.youtube.com/@tonibarthmusic)
 
-## Was kann ich Ihnen vermitteln
+## Was kann ich dir vermitteln
 
 * Softwareentwicklung:
     - Programmiersprachen: C/C++, Python, JavaScript/TypeScript, HTML, Lua, AutoHotkey
@@ -24,35 +24,35 @@ Wünschen Sie eine personalisierte, auf ihre Bedürfnisse zugeschnittene Schulun
 * Audiobearbeitung:
     - Audiobearbeitung unter Windows
     - Verwendung von REAPER für bspw. Hörbuchproduktion, Musikproduktion, Komposition, Mixing, Mastering, Sound Design
-    - wie Sie das Beste aus ihrem MIDI-kompatiblen Gerät (Keyboard, Gitarre, E-Drumkit) herausholen können
-    - welche Audiotechnik ist die Beste/Zugänglichste für ihren vorgesehenen Einsatzzweck
-    - wie Sie sich sorgenfrei im Native Instruments Ökosystem (Komplete Kontrol, Kontakt etc) bewegen
+    - wie du das Beste aus deinem MIDI-kompatiblen Gerät (Keyboard, Gitarre, E-Drumkit) herausholen kannst
+    - welche Audiotechnik ist die Beste/Zugänglichste für deinen vorgesehenen Einsatzzweck
+    - wie du dich sorgenfrei im Native Instruments Ökosystem (Komplete Kontrol, Kontakt etc) bewegst
     - Field Recording: was ist das, wie kann dies als blinde Person am Besten angewandt werden, Tipps und Tricks
 * Halten von Videopräsentationen und Erstellen von Videoinhalten:
     - Bildschirmaufnahme unter Windows
     - Bedienung von OBS (Open Broadcaster Software)
-    - wie Sie ihre Stimme und ihr System-Audio aufzeichnen können
-    - wie Sie nur spezifische Anwendungen ihres PCs Aufzeichnen können
+    - wie du ihre Stimme und dein System-Audio aufzeichnen kannst
+    - wie du nur spezifische Anwendungen deines PCs Aufzeichnen kannst
     - Verwendung von Plug-Ins und Effekten zur Verbesserung der Sprachqualität in Live-Situationen
     - Aufsetzen einer professionellen Videoumgebung für Streaming auf Twitch, YouTube u.A.
     - Aufzeichnung und Bearbeitung von Videos mit OBS und REAPER
 
 ## Die erste Einheit ist immer kostenlos!
 
-Egal wie Sie sich letztendlich entscheiden, die erste Einheit ist immer kostenlos. Auf diese Art und Weise können wir uns ganz entspannt beschnuppern und herausfinden, was Ihre Ziele und Schwierigkeiten sind und ob wir diese gemeinsam erreichen und beweltigen können. Es gibt außerdem keine Notwendigkeit, die Schulungen fortzusetzen, sollte diese erste Einheit nicht zu Ihrer Zufriedenheit verlaufen oder sich andere Unstimmigkeiten auftun.
+Egal wie du dich letztendlich entscheidst, die erste Einheit ist immer kostenlos. Auf diese Art und Weise können wir uns ganz entspannt beschnuppern und herausfinden, was deine Ziele und Schwierigkeiten sind und ob wir diese gemeinsam erreichen und beweltigen können. Es gibt außerdem keine Notwendigkeit, die Schulungen fortzusetzen, sollte diese erste Einheit nicht zu deiner Zufriedenheit verlaufen oder sich andere Unstimmigkeiten auftun.
 
 ## Bezahlung
 
-Meine Raten sind vergleichsweise angemessen, um nicht zu sagen günstig. Ich berechne im Mittel 50 € pro Lehrstunde, wobei es allerdings auch etwas mehr oder weniger sein kann, abhängig davon, welche Inhalte ich Ihnen vermitteln soll. Dazu ein kurzes Beispiel:
+Meine Raten sind vergleichsweise angemessen, um nicht zu sagen günstig. Ich berechne im Mittel 50 € pro Lehrstunde, wobei es allerdings auch etwas mehr oder weniger sein kann, abhängig davon, welche Inhalte ich dir vermitteln soll. Dazu ein kurzes Beispiel:
 
-Sollten Sie wünschen, von mir die Navigation und Bedienung von REAPER zu erlernen, also einer Software, die ich tägliche nutze und in der ich mich wie in meiner eigenen Westentasche auskenne, berechne ich Ihnen weniger als diesen mittleren Stundensatz. Sollten Sie jedoch wünschen, einen ausgefallenen Musikstil zu produzieren und von mir daher speziell auf diesen Stil zugeschnittene Hilfestellungen benötigen, wodurch ich mich womöglich in Vorbereitung eingehender mit diesem Genre auseinander setzen muss, können die Raten bei mehr als dem üblichen Stundensatz liegen, da ich entsprechende Vorbereitungen auf die Lehrinhalte anrechne.
+Solltest du wünschen, von mir die Navigation und Bedienung von REAPER zu erlernen, also einer Software, die ich tägliche nutze und in der ich mich wie in meiner eigenen Westentasche auskenne, berechne ich dir weniger als diesen mittleren Stundensatz. Solltest du jedoch wünschen, einen ausgefallenen Musikstil zu produzieren und von mir daher speziell auf diesen Stil zugeschnittene Hilfestellungen benötigen, wodurch ich mich womöglich in Vorbereitung eingehender mit diesem Genre auseinander setzen muss, können die Raten bei mehr als dem üblichen Stundensatz liegen, da ich entsprechende Vorbereitungen auf die Lehrinhalte anrechne.
 
-In jedem Fall ist es immer sinnvoll, sich direkt mit mir in Verbindung zu setzen, damit wir uns über Ihre eigenen Vorstellungen austauschen und eine Lösung für Ihre Situation finden können.
+In jedem Fall ist es immer sinnvoll, sich direkt mit mir in Verbindung zu setzen, damit wir uns über deine eigenen Vorstellungen austauschen und eine Lösung für deine Situation finden können.
 
 ## Wieviele Einheiten beinhaltet eine Schulung?
 
-Das hängt ganz von Ihnen ab. Sie müssen sich auf keine bestimmte Anzahl festlegen. Sie zahlen üblicherweise nach jeder abgeschlossenen Einheit und können die Schulung jederzeit beenden oder fortsetzen, wie es Ihnen passt. Die Terminfindung funktioniert üblicherweise nach dem call-and-response Prinzip: Sie bitten um eine Einheit und sagen mir, worum es geht, wir legen uns auf eine Zeit und eine Plattform fest und diskutieren das gewünschte Thema. Abschließend vereinbaren wir entweder direkt einen Folgetermin, oder Sie melden sich entsprechend bei mir, wenn Ihnen eine weitere Einheit passt. Ob eine oder 20 Einheiten, Sie sind völlig ungebunden.
+Das hängt ganz von dir ab. Du musst dich auf keine bestimmte Anzahl festlegen. Du zahlst üblicherweise nach jeder abgeschlossenen Einheit und kannst die Schulung jederzeit beenden oder fortsetzen, wie es dir passt. Die Terminfindung funktioniert üblicherweise nach dem call-and-response Prinzip: Du bitten um eine Einheit und sagst mir, worum es geht, wir legen uns auf eine Zeit und eine Plattform fest und diskutieren das gewünschte Thema. Abschließend vereinbaren wir entweder direkt einen Folgetermin, oder du meldest dich entsprechend bei mir, wenn dir eine weitere Einheit passt. Ob eine oder 20 Einheiten, du bist völlig ungebunden.
 
-## Das klingt ja alles toll, aber Sie können sich trotzdem noch nicht entscheiden
+## Das klingt ja alles toll, aber du kannst dich trotzdem noch nicht entscheiden
 
-Egal, ob bezogen auf ein ganz konkretes Thema, bei welchem Sie Unterstützung benötigen, oder Smalltalk, Sie können sich immer über einen der {{% doc %}}auf der Kontaktseite aufgezeigten Wege <contact>{{% /doc %}} mit mir in Verbindung setzen und sich vergewissern, ob mein Angebot etwas für Sie ist oder nicht. Ich freue mich auf Sie.
+Egal, ob bezogen auf ein ganz konkretes Thema, bei welchem du Unterstützung benötigst, oder Smalltalk, du kannst dich immer über einen der {{% doc %}}auf der Kontaktseite aufgezeigten Wege <contact>{{% /doc %}} mit mir in Verbindung setzen und dich vergewissern, ob mein Angebot etwas für dich ist oder nicht. Ich freue mich auf dich.
