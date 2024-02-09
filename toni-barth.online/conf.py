@@ -144,6 +144,14 @@ NAVIGATION_LINKS = {
         ("/index.html", "Home"),
         ("/music/index.html", "Music"),
         ("/teaching/index.html", "Teaching"),
+        (
+            (
+                ("https://github.com/MatejGolian/ReaHotkey", "ReaHotkey - accessibility for various audio software and plugins"),
+                ("https://timtam.github.io/musicalsight/", "MusicalSight - accessible musical helpers in your browser"),
+                ("https://github.com/Timtam/tcview", "TCView - Audio file preview for Total Commander"),
+            ),
+            "Projects"
+        ),
         ("/contact/index.html", "Contact"),
         ("/support/index.html", "Support Me"),
         ("/privacy-policy/index.html", "Privacy Policy"),
@@ -152,6 +160,14 @@ NAVIGATION_LINKS = {
     "de": (
         ("/de/index.html", "Startseite"),
         ("/de/teaching/index.html", "Schulungen"),
+        (
+            (
+                ("https://github.com/MatejGolian/ReaHotkey", "ReaHotkey - Zugänglichkeit zu Audioplugins und -software (Englisch)"),
+                ("https://timtam.github.io/musicalsight/", "MusicalSight - barrierefreie Musiktheorie und Hilfsmittel im Browser"),
+                ("https://github.com/Timtam/tcview", "TCView - Vorschau für Audiodateien in Total Commander"),
+            ),
+            "Projekte"
+        ),
         ("/de/contact/index.html", "Kontakt"),
         ("/de/support/index.html", "Unterstützung"),
         ("/de/imprint/index.html", "Impressum"),
