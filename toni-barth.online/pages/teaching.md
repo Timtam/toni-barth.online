@@ -37,13 +37,10 @@ Do you want a personalized one on one teaching experience with another blind per
     - how to build a professional live-streaming setup for Twitch, YouTube etc.
     - how to record and edit videos using OBS and REAPER
     
-## First session is free!
+## How much does it cost!
 
 No matter your decision, our first meet-up will always be free. This ensures that we both are happy with your decision and we get to flow with each other, understanding your obstacles, and how to surpass them to reach your goals. There is no obligation whatsoever to commit into further sessions should the initial session not suit your expectations.
-
-## Payment
-
-My payment rates are reasonable, not to say cheap. I usually go about $50 per hour tought, but it can go a bit lower or higher than that depending on what exactly you want to learn. As an example, in the case that you want to learn something from me that i'm really familiar with, like navigating your way around REAPER, i'd usually give you a smaller payment rate, but teaching you how to produce a specific style of music which i'll first have to learn about myself will be a bit more expensive, because of the preparation time that I have to invest ahead of time. The best way would always be to get in touch and discuss your specific use-case directly so that we both get an idea of what to expect.
+In the case that you feel comfortable with me as a teacher though, your goals are clear and we figured out a way forward, every hour will cost about $50. Feel free to get in touch if you've got any questions or if you are in need of special conditions.
 
 ## How many lessons can you take?
 

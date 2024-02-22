@@ -37,17 +37,10 @@ Wünschst du eine personalisierte, auf deine Bedürfnisse zugeschnittene Schulun
     - Aufsetzen einer professionellen Videoumgebung für Streaming auf Twitch, YouTube u.A.
     - Aufzeichnung und Bearbeitung von Videos mit OBS und REAPER
 
-## Die erste Einheit ist immer kostenlos!
+## Wie viel kostet es?
 
-Egal wie du dich letztendlich entscheidst, die erste Einheit ist immer kostenlos. Auf diese Art und Weise können wir uns ganz entspannt beschnuppern und herausfinden, was deine Ziele und Schwierigkeiten sind und ob wir diese gemeinsam erreichen und beweltigen können. Es gibt außerdem keine Notwendigkeit, die Schulungen fortzusetzen, sollte diese erste Einheit nicht zu deiner Zufriedenheit verlaufen oder sich andere Unstimmigkeiten auftun.
-
-## Bezahlung
-
-Meine Raten sind vergleichsweise angemessen, um nicht zu sagen günstig. Ich berechne im Mittel 50 € pro Lehrstunde, wobei es allerdings auch etwas mehr oder weniger sein kann, abhängig davon, welche Inhalte ich dir vermitteln soll. Dazu ein kurzes Beispiel:
-
-Solltest du wünschen, von mir die Navigation und Bedienung von REAPER zu erlernen, also einer Software, die ich tägliche nutze und in der ich mich wie in meiner eigenen Westentasche auskenne, berechne ich dir weniger als diesen mittleren Stundensatz. Solltest du jedoch wünschen, einen ausgefallenen Musikstil zu produzieren und von mir daher speziell auf diesen Stil zugeschnittene Hilfestellungen benötigen, wodurch ich mich womöglich in Vorbereitung eingehender mit diesem Genre auseinander setzen muss, können die Raten bei mehr als dem üblichen Stundensatz liegen, da ich entsprechende Vorbereitungen auf die Lehrinhalte anrechne.
-
-In jedem Fall ist es immer sinnvoll, sich direkt mit mir in Verbindung zu setzen, damit wir uns über deine eigenen Vorstellungen austauschen und eine Lösung für deine Situation finden können.
+Egal wie du dich letztendlich entscheidest, die erste Einheit ist immer kostenlos. Auf diese Art und Weise können wir uns ganz entspannt beschnuppern und herausfinden, was deine Ziele und Schwierigkeiten sind und ob wir diese gemeinsam erreichen und beweltigen können. Es gibt außerdem keine Notwendigkeit, die Schulungen fortzusetzen, sollte diese erste Einheit nicht zu deiner Zufriedenheit verlaufen oder sich andere Unstimmigkeiten auftun.
+Solltest du mit meiner Leistung allerdings zufrieden sein und das Wagniss eingehen wollen, kostet jede weitere Schulungsstunde bei mir 50 €. Bitte nimm gern Kontakt zu mir auf, solltest du aus gutem Grund andere Konditionen benötigen.
 
 ## Wieviele Einheiten beinhaltet eine Schulung?
 
