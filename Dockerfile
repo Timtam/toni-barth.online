@@ -4,7 +4,7 @@ FROM python:3.9 AS builder
 COPY toni-barth.online/ . 
 
 # Build the blog
-RUN pip install nikola \
+RUN pip install nikola jinja2 \
     && nikola build
 
 FROM nginx:alpine
