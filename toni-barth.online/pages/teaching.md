@@ -46,6 +46,12 @@ In the case that you feel comfortable with me as a teacher though, your goals ar
 
 That really depends on what you need, but you don't have to commit on anything. You pay after every lesson and can stop whenever you want, as well as delay appointments should you need to. It usually works on a call-and-response basis: you ask for a lesson, we'll schedule a time and place, we'll meet and discuss the topic at hand, maybe schedule the next lesson already, or we don't and you'll get back to me as soon as you want another round. Its totally fine to only have one session together if either you get the grasp of the topic immediately or you find that you're not happy with the situation after all.
 
+## What do I need?
+
+Assuming you know what you want to learn and improve, we'll now need to find a platform on which to run our sessions. Although I'm always open to suggestions and willing to listen and adapt to your preferred means of communication, when it comes to serious teaching, the software that works best for me is called Remote Incident Manager, or RIM for short. RIM is free for students to use and is basically a remote assistance software that focuses on screen reader support, even allowing control of systems that don't have a screen reader running, so I can teach people who don't use screen reading technology all the time. It also has a voice conversation feature and the ability to flip control, so you can even try devices or software running on my system other than yours, for example.
+
+Normally it's not always necessary to install and use RIM for the very first session, especially if you want to discuss your goals and plans first, but as soon as we start diving into the topics you're most interested in, having RIM as a tool can make things a lot easier. So I'd recommend you give it a try and install it from [it's website at getrim.app](https://getrim.app/).
+
 ## All that sounds great, but you still don't know if thats right for you
 
 I'm always happy to hear from you, no matter if its teaching related or just smalltalk, if you're interested, no matter if you're still unsure or not, {{% doc %}}pick a channel of communication from my contact page and let me know about how you feel <contact>{{% /doc %}}.
