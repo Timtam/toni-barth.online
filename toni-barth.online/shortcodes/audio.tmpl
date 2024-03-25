@@ -1,0 +1,54 @@
+{#
+
+Usage:
+
+    {{% audio src=http://example.com/my-track.mp3 %}}
+
+Or:
+
+    {{% audio src=http://example.com/my-track.mp3 formats=mp3,ogg %}}
+    Sorry, your browser does not seem to support the HTML 5 audio element.
+    {{% /audio %}}
+
+The shortcode supports a few other parameters:
+
+    {{% audio src=my-track.mp3 download="Datei herunterladen:" nocontrols=1 loop=1 autoplay=1 %}}
+
+And:
+
+    {{% audio src=http://example.com/my-track.mp3 nodownload=1 %}}
+
+Boolean parameters must have a value to take effect, but it doesn't matter what
+the value is.
+
+#}
+
+{% macro stripext(s) -%}{{ s[:s.rfind('.')] if '.' in s else s }}{% endmacro %}
+
+{% macro getext(s) -%}{{ s[s.rfind('.')+1:] if '.' in s else s }}{% endmacro %}
+
+<div class="audio-embed">
+  <audio{{ ' controls' if not nocontrols }}{{ ' autoplay' if autoplay }}{{ ' loop' if loop }}>
+    {% for fmt in (formats.split(',') if formats is defined else [getext(src)]) %}
+    <source src="{{ '{}.{}'.format(stripext(src), fmt) }}"
+      type="audio/{{ fmt }}" />
+    {% endfor %}
+    {% if data %}
+    <p>{{ data }}<p>
+    {% else %}
+    <p>Sorry, your browser does not seem to support the <code>audio</code> element.</p>
+    {% if nodownload %}
+    <p>You can <a href="{{ src }}">download the audio file</a> instead.</p>
+    {% endif %}
+    {% endif %}
+  </audio>
+
+  {% if not nodownload %}
+  <p class="download-links"><strong>{{ download | default('Download:') }}</strong>
+    {% for fmt in (formats.split(',') if formats is defined else [getext(src)]) %}
+      <a href="{{ '{}.{}'.format(stripext(src), fmt) }}">{{ fmt | upper }}</a>
+      {% if not loop.last %}|{% endif %}
+    {% endfor %}
+  </p>
+  {% endif %}
+</div>

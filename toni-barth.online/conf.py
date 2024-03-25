@@ -160,6 +160,7 @@ NAVIGATION_LINKS = {
     "de": (
         ("/de/index.html", "Startseite"),
         ("/de/teaching/index.html", "Schulungen"),
+        ("/de/contributions/index.html", "Externe Beiträge"),
         (
             (
                 ("https://github.com/MatejGolian/ReaHotkey", "ReaHotkey - Zugänglichkeit zu Audioplugins und -software (Englisch)"),
@@ -183,7 +184,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap4"
+THEME = "bootstrap4-jinja"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it

@@ -15,27 +15,52 @@ Wünschst du eine personalisierte, auf deine Bedürfnisse zugeschnittene Schulun
 
 ## Was kann ich dir vermitteln
 
-* Softwareentwicklung:
-    - Programmiersprachen: C/C++, Python, JavaScript/TypeScript, HTML, Lua, AutoHotkey
-    - Programmierparadigmen: objektorientierte Programmierung (OOP), funktionale Programmierung und mehr
-    - Versionskontrollsysteme wie Git, SVN: worum geht es und wie verwendet man sie, und wie bediene ich die wichtigsten Plattformen im Web (GitHub, GitLab etc)
-    - Containerisierung: Docker, Kubernetes etc.
-    - Erstellung von sog. Accessibility Overlays für ansonsten unzugängliche Software mithilfe von AutoHotkey (Hinweis: sehende Hilfe ist letztendlich allerdings unerlässlich)
-* Audiobearbeitung:
-    - Audiobearbeitung unter Windows
-    - Verwendung von REAPER für bspw. Hörbuchproduktion, Musikproduktion, Komposition, Mixing, Mastering, Sound Design
-    - wie du das Beste aus deinem MIDI-kompatiblen Gerät (Keyboard, Gitarre, E-Drumkit) herausholen kannst
-    - welche Audiotechnik ist die Beste/Zugänglichste für deinen vorgesehenen Einsatzzweck
-    - wie du dich sorgenfrei im Native Instruments Ökosystem (Komplete Kontrol, Kontakt etc) bewegst
-    - Field Recording: was ist das, wie kann dies als blinde Person am Besten angewandt werden, Tipps und Tricks
-* Halten von Videopräsentationen und Erstellen von Videoinhalten:
-    - Bildschirmaufnahme unter Windows
-    - Bedienung von OBS (Open Broadcaster Software)
-    - wie du ihre Stimme und dein System-Audio aufzeichnen kannst
-    - wie du nur spezifische Anwendungen deines PCs Aufzeichnen kannst
-    - Verwendung von Plug-Ins und Effekten zur Verbesserung der Sprachqualität in Live-Situationen
-    - Aufsetzen einer professionellen Videoumgebung für Streaming auf Twitch, YouTube u.A.
-    - Aufzeichnung und Bearbeitung von Videos mit OBS und REAPER
+Bitte erweitere die Themengebiete, welche dich besonders interessieren.
+
+<details>
+
+    <summary>Softwareentwicklung</summary>
+
+    <ul>
+        <li>Programmiersprachen: C/C++, Python, JavaScript/TypeScript, HTML, Lua, AutoHotkey</li>
+        <li>Programmierparadigmen: objektorientierte Programmierung (OOP), funktionale Programmierung und mehr</li>
+        <li>Versionskontrollsysteme wie Git, SVN: worum geht es und wie verwendet man sie, und wie bediene ich die wichtigsten Plattformen im Web (GitHub, GitLab etc)</li>
+        <li>Containerisierung: Docker, Kubernetes etc.</li>
+        <li>Erstellung von sog. Accessibility Overlays für ansonsten unzugängliche Software mithilfe von AutoHotkey (Hinweis: sehende Hilfe ist hierfür allerdings unerlässlich)</li>
+    </ul>
+
+</details>
+
+<details>
+
+    <summary>Audiobearbeitung und Musikproduktion</summary>
+
+    <ul>
+        <li>Audiobearbeitung unter Windows</li>
+        <li>Verwendung von REAPER für bspw. Hörbuchproduktion, Musikproduktion, Komposition, Mixing, Mastering, Sound Design</li>
+        <li>wie du das Beste aus deinem MIDI-kompatiblen Gerät (Keyboard, Gitarre, E-Drumkit) herausholen kannst</li>
+        <li>welche Audiotechnik ist die Beste/Zugänglichste für deinen vorgesehenen Einsatzzweck</li>
+        <li>wie du dich sorgenfrei im Native Instruments Ökosystem (Komplete Kontrol, Kontakt etc) bewegst</li>
+        <li>Field Recording: was ist das, wie kann dies als blinde Person am Besten angewandt werden, Tipps und Tricks</li>
+    </ul>
+
+</details>
+
+<details>
+
+    <summary>Erstellen von Videoinhalten und Halten von Videopräsentationen</summary>
+
+    <ul>
+        <li>Bildschirmaufnahme unter Windows</li>
+        <li>Bedienung von OBS (Open Broadcaster Software)</li>
+        <li>wie du deine Stimme und dein System-Audio aufzeichnen kannst</li>
+        <li>wie du nur spezifische Anwendungen deines PCs Aufzeichnen kannst</li>
+        <li>Verwendung von Plug-Ins und Effekten zur Verbesserung der Sprachqualität in Live-Situationen</li>
+        <li>Aufsetzen einer professionellen Videoumgebung für Streaming auf Twitch, YouTube u.A.</li>
+        <li>Aufzeichnung und Bearbeitung von Videos mit OBS und REAPER</li>
+    </ul>
+
+</details>
 
 ## Wie viel kostet es?
 
@@ -55,3 +80,4 @@ Normalerweise ist es nicht immer notwendig, RIM für die allererste Sitzung zu i
 ## Das klingt ja alles toll, aber du kannst dich trotzdem noch nicht entscheiden
 
 Egal, ob bezogen auf ein ganz konkretes Thema, bei welchem du Unterstützung benötigst, oder Smalltalk, du kannst dich immer über einen der {{% doc %}}auf der Kontaktseite aufgezeigten Wege <contact>{{% /doc %}} mit mir in Verbindung setzen und dich vergewissern, ob mein Angebot etwas für dich ist oder nicht. Ich freue mich auf dich.
+Solltest du aber eher an bereits vorhandenen, kostenlosen Inhalten interessiert sein, so könntest du auch in der Liste meiner {{% doc %}}externen Beiträge <contributions>{{% /doc %}} fündig werden. Dort liste ich alle hilfreichen Beiträge für externe Podcasts und ähnliche Formate auf, an welchen ich beteiligt bin oder war.
