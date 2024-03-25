@@ -31,11 +31,12 @@ Dank meiner Blindheit beschäftige ich mich seit den frühen 2000er Jahren mit v
 ## Content Creator
 
 Alles rund um Musik und Audio im Allgemeinen ist auf meinem englischsprachigen YouTube-Kanal [Toni Barth Music](https://www.youtube.com/@tonibarthmusic) zu finden. Dort lade ich nicht nur Covers und neue Kompositionen hoch, sondern auch jede Menge Tutorials, Software- und Hardware-Reviews und vieles mehr, alles mit Blick auf Barrierefreiheit aus der Sicht einer blinden oder sehbehinderten Person.
-Zudem habe ich gemeinsam mit [Christian Ohrens](https://christian-ohrens.de/) eine Reihe von Podcast-Episoden für den OffSight-Podcast des [DBSV](https://www.dbsv.org/) produziert, in welcher wir euch den Einstieg in die digitale Audio-Workstation REAPER näher bringen. [Hier kannst du dir Episode eins anhören](https://offsight.podigee.io/174-reaper1).
+Eine Liste anderer externer Beiträge findest du auch in der Navigation oben oder auf der {{% doc %}}Unterseite zu den externen Beiträgen <contributions>{{% /doc %}}. Dort gibt es beispielsweise mehrere Podcast-Episoden zum Thema Audiobearbeitung und Musikproduktion mit REAPER zu hören.
 
 ## Schulungen
 
 Wenn Du auf der Suche nach einer persönlichen Schulung zu verschiedenen Themen der Programmierung oder Musik-/Audiobearbeitung bist und dich mit mir als Person und Tutor wohl fühlst, biete ich meine Dienste hierzu gerne an. Und das Beste ist, dass es erschwinglich ist und an keine Bedingungen geknüpft ist. Bitte schau dir meine spezielle {{% doc %}}Unterseite dazu an <teaching>{{% /doc %}}.
+
 ## Kontakt
 
 Solltest Du zu mir Kontakt aufnehmen wollen, findest du alle denkbaren Wege {{% doc %}}auf der dafür vorgesehenen Unterseite <contact>{{% /doc %}}.

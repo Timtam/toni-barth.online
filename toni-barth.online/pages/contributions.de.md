@@ -15,7 +15,7 @@ Hier findest du diverse externe Beiträge, an welchen ich beteiligt war.
 
 ## Musikproduktion und Audiobearbeitung mit REAPER (DBSV OffSight Podcast)
 
-Gemeinsam mit Christian Ohrens habe ich, beginnend im August 2023, eine Podcast-Reihe zum Einstieg in REAPER für die Musikproduktion und Audiobearbeitung im DBSV OffSight-Podcast veröffentlicht. Nachfolgend findest du die Beiträge auf dieser Seite eingebunden. Vergiss nicht, bei Interesse auch einmal beim [OffSight Podcast direkt vorbeizuschauen](https://offsight.podigee.io/), dort gibt es noch viele weitere spannende Beiträge, welche sich auch nicht nur um das Thema Audio drehen.
+Gemeinsam mit [Christian Ohrens](https://christian-ohrens.de/) habe ich, beginnend im August 2023, eine Podcast-Reihe zum Einstieg in REAPER für die Musikproduktion und Audiobearbeitung im [DBSV](https://www.dbsv.org/) OffSight-Podcast veröffentlicht. Nachfolgend findest du die Beiträge auf dieser Seite eingebunden. Vergiss nicht, bei Interesse auch einmal beim [OffSight Podcast direkt vorbeizuschauen](https://offsight.podigee.io/), dort gibt es noch viele weitere spannende Beiträge, welche sich auch nicht nur um das Thema Audio drehen.
 
 ### Episode 1: Vorstellung, Installation und Einrichtung
 
