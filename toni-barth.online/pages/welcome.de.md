@@ -11,7 +11,7 @@
 
 # Herzlich Willkommen auf meiner Webseite!
 
-{{% thumbnail "/images/profile.jpg" alt="Ein Profilbild von Toni Barth" align="center" %}}{{% /thumbnail %}}
+{{% thumbnail "/images/profile.jpg" alt="Im Portrait ist ein Mann mit kurzen, braunen Haaren zu sehen, welche sich am Oberkopf bereits etwas lichten. Er hat ein rundes Gesicht mit einer hohen Stirn, gut definierte, dunkle Augenbrauen, braune Augen und helle Haut. Er hat einen freundlichen Gesichtsausdruck mit einem leichten Lächeln. Er trägt ein blau-weiß kariertes Hemd. Diese Bildbeschreibung wurde teilweise mithilfe von künstlicher Intelligenz erstellt." align="center" %}}{{% /thumbnail %}}
 
 Hallo zusammen! Mein Name ist Toni Barth und ich möchte mich und meine Arbeit kurz vorstellen. Du kannst entweder die Navigation oben benutzen, um mehr über die Themen zu erfahren, die dich besonders interessieren, oder einfach weiterlesen, um einen kurzen Einblick in das zu bekommen, was ich gerade mache.
 

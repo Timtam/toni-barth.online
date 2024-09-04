@@ -11,7 +11,7 @@
 
 # Welcome to my website!
 
-{{% thumbnail "/images/profile.jpg" alt="A profile picture of me" align="center" %}}{{% /thumbnail %}}
+{{% thumbnail "/images/profile.jpg" alt="The portrait shows a man with short, brown hair, which is already thinning slightly at the top of his head. He has a round face with a high forehead, well-defined dark eyebrows, brown eyes and light-coloured skin. He has a friendly expression with a slight smile. He wears a blue and white chequered shirt. This image description was partly created with the help of artificial intelligence." align="center" %}}{{% /thumbnail %}}
 
 Hello everyone! My name is Toni Barth and I'd like to introduce myself and all the things I do. You can either use the navigation above to find out more about the topics you're specifically interested in, or you can read on for a quick glimpse of what i'm currently up to.
 
