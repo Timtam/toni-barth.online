@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Toni Barth",
+    "label": "Specialized practical employee at Anhalt University of Applied Sciences | Hochschule Anhalt",
+    "image": "",
+    "email": "contact@toni-barth.online",
+    "phone": "+49 179 2687381",
+    "url": "https://www.toni-barth.online",
+    "summary": "My interest in digital media and programming was already apparent in my youth, which is why I invested a lot of time in learning various audio editing and programming techniques and also worked on individual open source projects.\nAt the beginning of my professional career, I then decided to do a dual degree in Applied Computer Science - Digital Media and Game Development in order to actively gain professional experience in addition to the basic theoretical knowledge. As part of this course, I was particularly interested in efficient programming with low-level languages such as C, but also in the development of websites, mobile apps or algorithms for artificial intelligence or multimedia signal processing. I have also worked with natural language processing and the efficient management of databases.\nI also worked as a tutor for programming with C for fellow students in the 1st and 2nd semesters, and I was actively involved in the student council of my degree program and on the examination board to represent students at the university.\nDuring my studies, I worked at GISA GmbH in Halle. Initially employed in the SAP environment, I switched to web development after 1 1/2 years, where I worked on the development of single-page apps based on AngularJS or Angular and the associated backend. I then also wrote my bachelor's thesis on the subject of upgrading the AngularJS web framework to the new Angular implementation in the business environment, which was awarded a grade of 1.0 in July 2018.\nI completed my Master of Science from 2018 to 2021 at the Martin Luther University Halle-Wittenberg in cooperation with the Anhalt University of Applied Sciences in the Interactive Media department. I completed my studies with the master's thesis \"Evaluation of the software environment Node.js as an alternative to Java in the development of enterprise software in the backend environment\", which was awarded a grade of 1.0.\nAfter completing my Master's degree, I moved to my alma mater, Anhalt University of Applied Sciences, to take up a position as a research assistant. In this role, I teach topics such as multimedia signal processing and web programming. I am also involved in the administration of Linux-based server systems.\nUntil 2020, I was part of the development team for the text-based game Avalon (available at https://avalon.mud.de) on a voluntary basis, which has been around for over 20 years and offers an incredible wealth of functions as well as challenges of both a technical and social nature.\nI also regularly take on new tasks and discover new areas of interest for myself. Most of my projects are open source and can be found on GitHub under the username Timtam: https://github.com/Timtam\nFor example, you can also find all the results of the Global Game Jams there, which I have regularly participated in since 2016.\nSince 2022, I have also been working as a consultant for accessibility, especially in audio applications. Thanks to my expertise in software development, I was able to work with Audient, for example, to make the control software for their iD and EVO interface series accessible: https://audient.com/2023/08/14/accessibility-app/\nSince 2023 I have also been working part-time as a composer, sound designer, audio engineer and trainer, more information on my website https://www.toni-barth.online/en.",
+    "location": {
+      "countryCode": "DE",
+      "address": "Robert-Koch-Str. 44",
+      "postalCode": "06128",
+      "city": "Halle (Saale)",
+      "region": "Sachsen-Anhalt"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "toni-barth-a54071174",
+        "url": "https://www.linkedin.com/in/toni-barth-a54071174/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Timtam",
+        "url": "https://github.com/Timtam"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Anhalt University of Applied Sciences | Hochschule Anhalt",
+      "position": "Specialized practical employee",
+      "startDate": "2021-07-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/school/hochschuleanhalt/",
+      "location": "Köthen (Anhalt), Sachsen-Anhalt, Deutschland"
+    },
+    {
+      "name": "GISA GmbH",
+      "position": "Student Masters Degree",
+      "startDate": "2014-10-01",
+      "endDate": "2021-07-22",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/gisagmbh/",
+      "location": "Halle-Neustadt und Umgebung, Deutschland"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Martin-Luther-Universität Halle-Wittenberg",
+      "area": "Interactive Media",
+      "studyType": "Master of Science - MS",
+      "startDate": "2018-04-01",
+      "endDate": "2021-06-30",
+      "score": "1,4",
+      "courses": []
+    },
+    {
+      "institution": "Anhalt University of Applied Sciences | Hochschule Anhalt",
+      "area": "Applied Computer Science - Digital Media & Game Development",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2014-10-01",
+      "endDate": "2018-03-30",
+      "score": "1,6",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Köthener Informatikpreis",
+      "date": "2018-10-09",
+      "awarder": "University Of Applied Sciences | Hochschule Anhalt",
+      "summary": "Award for the best bachelor thesis of the year"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Interactive Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Algorithms",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Digital Signal Processing (DSP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Backend Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Video Games",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "de",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "en",
+      "fluency": "Fluent in written and spoken language"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "resumed render",
+    "validate": "resumed validate",
+    "html-to-pdf": "node convert.js"
+  },
+  "devDependencies": {
+    "jsonresume-theme-kendall": "^0.2.0",
+    "puppeteer": "^23.4.1",
+    "resumed": "^4.0.0"
+  }
+}

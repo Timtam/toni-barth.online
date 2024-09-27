@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os.path
 import time
 
 # !! This is the configuration of Nikola. !! #
@@ -140,7 +141,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
+    DEFAULT_LANG: [
         ("/index.html", "Home"),
         ("/music/index.html", "Music"),
         ("/teaching/index.html", "Teaching"),
@@ -155,9 +156,9 @@ NAVIGATION_LINKS = {
         ("/contact/index.html", "Contact"),
         ("/support/index.html", "Support Me"),
         ("/privacy-policy/index.html", "Privacy Policy"),
-    ),
+    ],
 
-    "de": (
+    "de": [
         ("/de/index.html", "Startseite"),
         ("/de/teaching/index.html", "Schulungen"),
         ("/de/contributions/index.html", "Externe Beiträge"),
@@ -173,8 +174,19 @@ NAVIGATION_LINKS = {
         ("/de/support/index.html", "Unterstützung"),
         ("/de/imprint/index.html", "Impressum"),
         ("/de/privacy-policy/index.html", "Datenschutzerklärung"),
-    ),
+    ],
 }
+
+if os.path.exists("pages/resume.html"):
+    NAVIGATION_LINKS[DEFAULT_LANG].insert(1, 
+        (
+            (
+                ("/resume/index.html", "Resumé"),
+                ("/CV_Toni_Barth.pdf", "Download as PDF"),
+            ),
+            "Resumé",
+        )
+    )
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
