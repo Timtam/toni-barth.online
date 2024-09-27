@@ -12,10 +12,34 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Set up QEMU
+      -
+        uses: Devleaps/jsonresume-generator@v1
+        name: Convert Resume to PDF
+        with:
+          action: "render"
+          file: "en.json"
+          folder: "cv"
+          output-type: "pdf"
+          theme-name: "jsonresume-theme-kendall"
+      -
+        uses: Devleaps/jsonresume-generator@v1
+        name: Convert Resume to HTML
+        with:
+          action: "render"
+          file: "en.json"
+          folder: "cv"
+          output-type: "html"
+          theme-name: "jsonresume-theme-kendall"
+      -
+        name: Copy Resume
+        run: |
+          cp cv/en.html toni-barth.online/pages/resume.html
+          cp cv/en.pdf toni-barth.online/files/CV_Toni_Barth.pdf
+      - 
+        name: Set up QEMU
         uses: docker/setup-qemu-action@v3
-
-      - name: Set up Docker Buildx
+      - 
+        name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       - 
         name: "Log in to Docker Hub"
