@@ -14,15 +14,6 @@ jobs:
           fetch-depth: 0
       -
         uses: Devleaps/jsonresume-generator@v1
-        name: Convert Resume to PDF
-        with:
-          action: "render"
-          file: "en.json"
-          folder: "cv"
-          output-type: "pdf"
-          theme-name: "jsonresume-theme-kendall"
-      -
-        uses: Devleaps/jsonresume-generator@v1
         name: Convert Resume to HTML
         with:
           action: "render"
@@ -30,6 +21,12 @@ jobs:
           folder: "cv"
           output-type: "html"
           theme-name: "jsonresume-theme-kendall"
+      -
+        name: Convert HTMLResume to PDF
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: cv/en.html
+          outputFile: cv/en.pdf
       -
         name: Copy Resume
         run: |
