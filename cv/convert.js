@@ -10,6 +10,7 @@ const pdfFile = process.argv[3];
   const browser = await puppeteer.launch({
     headless: 'new',
     executablePath: '/usr/bin/chromium-browser',
+    timeout: 0,
     args: [
       '--no-sandbox',
       '--headless',
