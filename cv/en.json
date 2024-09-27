@@ -11,9 +11,9 @@
     "location": {
       "countryCode": "DE",
       "address": "Robert-Koch-Str. 44",
-      "postalCode": "06128",
+      "postalCode": "06110",
       "city": "Halle (Saale)",
-      "region": "Sachsen-Anhalt"
+      "region": "Saxony-Anhalt"
     },
     "profiles": [
       {
@@ -32,10 +32,10 @@
     {
       "name": "Anhalt University of Applied Sciences | Hochschule Anhalt",
       "position": "Specialized practical employee",
-      "startDate": "2021-07-31",
+      "startDate": "2021-07-23",
       "highlights": [],
       "url": "https://www.linkedin.com/school/hochschuleanhalt/",
-      "location": "Köthen (Anhalt), Sachsen-Anhalt, Deutschland"
+      "location": "Köthen (Anhalt), Saxony-Anhalt, Germany"
     },
     {
       "name": "GISA GmbH",
@@ -44,15 +44,15 @@
       "endDate": "2021-07-22",
       "highlights": [],
       "url": "https://www.linkedin.com/company/gisagmbh/",
-      "location": "Halle-Neustadt und Umgebung, Deutschland"
+      "location": "Halle (Saale), Germany"
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Martin-Luther-Universität Halle-Wittenberg",
+      "institution": "Martin-Luther-University Halle-Wittenberg",
       "area": "Interactive Media",
-      "studyType": "Master of Science - MS",
+      "studyType": "Master of Science - M.Sc.",
       "startDate": "2018-04-01",
       "endDate": "2021-06-30",
       "score": "1,4",
@@ -61,7 +61,7 @@
     {
       "institution": "Anhalt University of Applied Sciences | Hochschule Anhalt",
       "area": "Applied Computer Science - Digital Media & Game Development",
-      "studyType": "Bachelor of Science - BS",
+      "studyType": "Bachelor of Science - B.Sc.",
       "startDate": "2014-10-01",
       "endDate": "2018-03-30",
       "score": "1,6",
@@ -72,11 +72,18 @@
     {
       "title": "Köthener Informatikpreis",
       "date": "2018-10-09",
-      "awarder": "University Of Applied Sciences | Hochschule Anhalt",
+      "awarder": "Anhalt University Of Applied Sciences | Hochschule Anhalt",
       "summary": "Award for the best bachelor thesis of the year"
     }
   ],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "NVDA Certified Expert 2022",
+      "url": "https://certification.nvaccess.org/certifications/nvdaExpert/2022",
+      "issuer": "NV Access",
+      "date": "2024-07-31"
+    }
+  ],
   "publications": [],
   "skills": [
     {
