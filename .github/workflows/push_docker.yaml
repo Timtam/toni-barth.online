@@ -23,10 +23,11 @@ jobs:
           theme-name: "jsonresume-theme-kendall"
       -
         name: Convert HTMLResume to PDF
-        uses: fifsky/html-to-pdf-action@master
+        uses: LukaszLapaj/html-to-pdf-action@master
         with:
           htmlFile: cv/en.html
           outputFile: cv/en.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       -
         name: Copy Resume
         run: |
