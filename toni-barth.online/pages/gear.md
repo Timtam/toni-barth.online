@@ -27,11 +27,13 @@ Of course, I am always available if you have any questions about any of the prod
 
     <summary>Audio Interfaces</summary>
     
+    <p>Audio interfaces are notorious for their lack of controls. Unlike traditional mixers, they usually have very few knobs and buttons and are mainly controlled by software. However, not all software is easy to use, so below is a list of audio interfaces that I have personally tested and found to be easy to use and generally recommendable.</p>
+
     <table>
         <thead>
             <tr>
-                <th>Device</th>
-                <th>Price</th>
+                <th style="width:20%">Device</th>
+                <th style="width:20%">Price</th>
                 <th>Description</th>
                 <th>Link(s)</th>
             </tr>
@@ -65,4 +67,48 @@ Of course, I am always available if you have any questions about any of the prod
         </tbody>
     </table>
 
+</details>
+
+<details>
+
+    <summary>Keyboards</summary>
+
+    <p>Keyboards come in all shapes and sizes. These days, many offer extra features that go far beyond a simple keyboard. Not all of them are so easy to use that the extra cost is worth it. In this respect, Native Instruments stands out for its accessibility, as its keyboards even have speech output. In this list you will find all the keyboards I can recommend and why.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th style="width:20%">Device</th>
+                <th style="width:20%">Price</th>
+                <th>Description</th>
+                <th>Link(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Native Instruments M32</td>
+                <td>99 €</td>
+                <td>This is the entry-level keyboard from Native Instruments. With 32 keys, it offers the perfect compromise between playability and portability. Smooth, touch-sensitive knobs allow you to quickly and easily edit the parameters of various digital instruments, while clearly defined buttons allow you to control important functions such as start/stop, metronome, undo and more from the keyboard without having to switch to your PC/Mac. This keyboard is perfect for beginners, for those who travel a lot, but also as a control for Native Instruments' own browser functions, while using your professional electric piano for the actual playing of melodies.</td>
+                <td><a href="https://amzn.to/48oWWoP">M32 on Amazon</a></td>
+            </tr>
+            <tr>
+                <td>Native Instruments A Series</td>
+                <td>From 131 € to 219 €</td>
+                <td>The A series is still the entry-level segment of Native Instruments' keyboards, but they are now a little more robust and the touch is a little closer to what you would expect from higher quality keyboards or even electric pianos. The most portable of the bunch is undoubtedly the A25, with its 25 keys, while the A61, with its 61 keys and length of around one metre, is no longer ideal for travelling. The A49, with its 49 keys, offers a good compromise between space and performance. However, the A series has no advantage over the M32 in terms of functions beyond the keys.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/4fgJYM5">A25 on Amazon</a></li>
+                        <li><a href="https://amzn.to/48u5Hhx">A49 on Amazon</a></li>
+                        <li><a href="https://amzn.to/4e38PSA">A61 on Amazon</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Native Instruments S88 MK2</td>
+                <td>1.099 €</td>
+                <td>The largest keyboard from Native Instruments, packed with features and a full 88 keys. This keyboard offers the real piano experience with fully weighted keys and even more additional buttons and control for the instrument browser. Any experienced musician used to a real piano will probably want to look at this range of keyboards. Unfortunately, only the MK2 series of S series keyboards are currently available with speech output. The older MK1 series is no longer supported, while the newer MK3 series does not yet have speech feedback. I will update this list accordingly as soon as the MK3 series recieves the necessary update.</td>
+                <td><a href="https://amzn.to/40eGcic">S88 MK2 on Amazon</a></td>
+            </tr>
+        </tbody>
+    </table>
 </details>
