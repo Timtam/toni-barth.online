@@ -71,6 +71,44 @@ Of course, I am always available if you have any questions about any of the prod
 
 <details>
 
+    <summary>Handheld Recorders</summary>
+
+    <p>Handheld recorders, once mainly used for interviews, are usually very compact devices that can be used to make high-quality recordings quickly and easily on the move. Nowadays, their recording quality is so good that they can be used not only for interviews, but also for ambience, band performances and concert recordings. However, with improved recording quality comes increased control, which can often only be found in complex menu structures that blind and visually impaired users have to memorize. Fortunately, there are devices that are easier to use than others, without sacrificing recording quality.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width:20%">Device</th>
+                <th style="width:20%">Price</th>
+                <th>Description</th>
+                <th>Link(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zoom MicTrak M3</td>
+                <td>198 €</td>
+                <td>The Zoom MicTrak M3 is a compact recording device that resembles an elongated microphone with a rectangular base that houses the batteries and buttons. It has no menus, which makes it very easy to use. It does not have a speaker, but can be monitored with headphones. Its shape and functionality make it ideal for atmospheric recording, interview situations and as a camera microphone, for which it comes with a hot shoe adapter. The microphone's design allows for a wide range of recordings. For example, stereo recordings can be made with a 90-degree and 120-degree panorama. Recording is done in 32-bit float on a micro-SD card, with 32-bit float technology ensuring that recordings are rarely clipping, and that too loud or too quiet parts of the recording can be easily recovered in post-production.</td>
+                <td><a href="https://amzn.to/3YiMHhf">MicTrak M3 on Amazon</a></td>
+            </tr>
+            <tr>
+                <td>Zoom H Essential Series</td>
+                <td>From 109 € To 326 €</td>
+                <td>The Zoom H Essential series is a range of devices with a built-in stereo microphone that already provides excellent recordings with 32-bit float technology, which is much better protected against clipping than traditional 24-bit recordings. The units allow a wide range of settings to be made directly on the device, with the menu structure fully voiced through the unit's built-in speaker or headphone output. The smallest unit, the H1Essential, has a 3.5mm jack for connecting external microphones, such as a lavalier, in addition to the built-in microphones. The H4Essential and H6Essential also have 2 and 4 XLR inputs respectively, so you can even use professional studio microphones. All units can also be used as audio interfaces on a PC/Mac/smartphone, providing a flexible recording solution for on-the-go recording.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/4e1SJc5">H1Essential on Amazon</a></li>
+                        <li><a href="https://amzn.to/3UpnIrH">H4Essential on Amazon</a></li>
+                        <li><a href="https://amzn.to/3Yk2ix6">H6Essential on Amazon</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details>
+
     <summary>Keyboards</summary>
 
     <p>Keyboards come in all shapes and sizes. These days, many offer extra features that go far beyond a simple keyboard. Not all of them are so easy to use that the extra cost is worth it. In this respect, Native Instruments stands out for its accessibility, as its keyboards even have speech output. In this list you will find all the keyboards I can recommend and why.</p>
