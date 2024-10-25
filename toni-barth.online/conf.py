@@ -153,6 +153,7 @@ NAVIGATION_LINKS = {
             ),
             "Projects"
         ),
+        ("/gear/index.html", "Accessible audio hardware"),
         ("/contact/index.html", "Contact"),
         ("/support/index.html", "Support Me"),
         ("/privacy-policy/index.html", "Privacy Policy"),
@@ -170,6 +171,7 @@ NAVIGATION_LINKS = {
             ),
             "Projekte"
         ),
+        ("/de/gear/index.html", "Zugängliche Audio-Hardware"),
         ("/de/contact/index.html", "Kontakt"),
         ("/de/support/index.html", "Unterstützung"),
         ("/de/imprint/index.html", "Impressum"),

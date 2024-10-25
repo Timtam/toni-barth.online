@@ -59,6 +59,8 @@ toni-barth.online's Privacy Policy does not apply to other advertisers or websit
 
 You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
+As an Amazon Associate I earn from qualifying purchases.
+
 ## CCPA Privacy Rights (Do Not Sell My Personal Information)
 
 Under the CCPA, among other rights, California consumers have the right to:

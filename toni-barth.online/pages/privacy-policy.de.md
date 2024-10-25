@@ -177,4 +177,8 @@ Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von SoundCl
 
 Wenn Sie nicht wünschen, dass SoundCloud den Besuch dieser Website Ihrem SoundCloud- Benutzerkonto zuordnet, loggen Sie sich bitte aus Ihrem SoundCloud-Benutzerkonto aus bevor Sie Inhalte des SoundCloud-Plugins aktivieren.
 
+## 6. Werbepartner
+
+Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.
+
 Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
