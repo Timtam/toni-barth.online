@@ -179,6 +179,6 @@ Wenn Sie nicht wünschen, dass SoundCloud den Besuch dieser Website Ihrem SoundC
 
 ## 6. Werbepartner
 
-Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.
+Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Selbiges gilt auch für Thomann.
 
 Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>

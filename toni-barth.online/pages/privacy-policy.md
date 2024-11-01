@@ -59,7 +59,7 @@ toni-barth.online's Privacy Policy does not apply to other advertisers or websit
 
 You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
-As an Amazon Associate I earn from qualifying purchases.
+As an Amazon Associate I earn from qualifying purchases. Same goes for Thomann.
 
 ## CCPA Privacy Rights (Do Not Sell My Personal Information)
 
