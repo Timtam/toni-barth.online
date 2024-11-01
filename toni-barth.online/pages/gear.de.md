@@ -87,7 +87,11 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
                 <td>Zoom MicTrak M3</td>
                 <td>198 €</td>
                 <td>Das Zoom MicTrak M3 ist ein kompaktes Aufnahmegerät, welches von der Form an einlängliches Mikrofon erinnert, an dessen Basis ein Quader angeschlossen ist, welcher die Batterien und Tasten beherbergt. Das Gerät kommt vollkommen ohne Menüs aus, was die Bedienung stark erleichtert. Allerdings besitzt es auch keinen Lautsprecher, es kann jedoch über Kopfhörer abgehört werden. Die Form und funktionsweise qualifiziert es wunderbar für atmosphärische Aufnahmen, Interviewsituationen und als Kamera-Mikrofon, weshalb es auch mit einem Blitzschuh-Adapter für Selbige geliefert wird. Der Aufbau des Mikrofons ermöglicht vielfältige Aufnahmen. So können Stereo-Aufnahmen mit 90 Grad und 120 Grad Panorama angefertigt werden. Aufgezeichnet wird in 32-bit Float auf eine Micro SD Karte, wobei die 32-Bit Float Technologie dafür sorgt, dass die Aufnahmen nur sehr, sehr selten übersteuern werden und nachträglich am PC zu laute, oder auch zu leise Stellen in der Aufnahme mühelos nachbearbeitet werden können.</td>
-                <td><a href="https://amzn.to/3YiMHhf">MicTrak M3 bei Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 bei Thomann</a></td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3YiMHhf">MicTrak M3 bei Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 bei Thomann</a></li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Zoom H Essential Serie</td>
@@ -125,7 +129,11 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
                 <td>Native Instruments M32</td>
                 <td>99 €</td>
                 <td>Dies ist das Einsteiger-Keyboard von Native Instruments. Mit 32 Tasten bietet es einen optimalen Kompromiss aus Spielbarkeit und Portabilität. Die stufenlosen und berührungsempfindlichen Drehregler ermöglichen ein schnelles und kinderleichtes Bearbeiten von Parametern diverser digitaler Instrumente, während die habtisch klar abgesetzten Tasten das Steuern wichtiger Funktionen, wie etwa Start/Stopp, Metronom, Rückgängig und viele Weitere, vom Keyboard aus ermöglichen, ohne dafür extra zum PC/Mac wechseln zu müssen. Dieses Keyboard eignet sich wunderbar für Einsteiger, wenn man viel auf Reisen ist, aber auch als Steuerung für die Native Instruments eigenen Browserfunktionen, während man sein professionelles E-Piano für das eigentliche Einspielen von Melodien verwendet.</td>
-                <td><a href="https://amzn.to/48oWWoP">M32 bei Amazon</a> | <a href="https://thmn.to/thoprod/458012?offid=1&affid=3547">M32 bei Thomann</a></td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/48oWWoP">M32 bei Amazon</a> | <a href="https://thmn.to/thoprod/458012?offid=1&affid=3547">M32 bei Thomann</a>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Native Instruments A Serie</td>
@@ -143,7 +151,11 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
                 <td>Native Instruments S88 MK2</td>
                 <td>1.099 €</td>
                 <td>Das größte Keyboard von Native Instruments, vollgepackt mit jeder Menge Funktionen und einer vollen Klaviatur mit 88 Tasten. Dieses Keyboard bietet die echte Piano-Erfahrung mit vollgewichteten Tasten und noch mehr zusätzlichen Drucktaster und Kontrolle über den Instrumentenbrowser, als es vergleichsweise das M32 oder die A-Serie bietet. Jeder erfahrene Musiker, welcher ein echtes Piano gewöhnt ist, wird sich vermutlich eher in dieser Sparte von Keyboards umschauen wollen. Leider ist bislang nur die MK2 Serie der S-Serie Keyboards mit einer Sprachausgabe verfügbar. Die ältere Serie MK1 wird nicht mehr unterstützt, wohingegen die neuere Serie MK3 noch keine Sprachausgabe besitzt. Sobald die MK3-Version das notwendige Update erhält, werde ich diese Liste entsprechend anpassen.</td>
-                <td><a href="https://amzn.to/40eGcic">S88 MK2 bei Amazon</a> | S88 MK2 derzeit nicht bei Thomann verfügbar</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/40eGcic">S88 MK2 bei Amazon</a> | S88 MK2 derzeit nicht bei Thomann verfügbar</li>
+                    </ul>
+                </td>
             </tr>
         </tbody>
     </table>

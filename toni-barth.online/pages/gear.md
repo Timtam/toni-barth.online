@@ -89,7 +89,11 @@ Of course, I am always available if you have any questions about any of the prod
                 <td>Zoom MicTrak M3</td>
                 <td>198 €</td>
                 <td>The Zoom MicTrak M3 is a compact recording device that resembles an elongated microphone with a rectangular base that houses the batteries and buttons. It has no menus, which makes it very easy to use. It does not have a speaker, but can be monitored with headphones. Its shape and functionality make it ideal for atmospheric recording, interview situations and as a camera microphone, for which it comes with a hot shoe adapter. The microphone's design allows for a wide range of recordings. For example, stereo recordings can be made with a 90-degree and 120-degree panorama. Recording is done in 32-bit float on a micro-SD card, with 32-bit float technology ensuring that recordings are rarely clipping, and that too loud or too quiet parts of the recording can be easily recovered in post-production.</td>
-                <td><a href="https://amzn.to/3YiMHhf">MicTrak M3 on Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 on Thomann</a></td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3YiMHhf">MicTrak M3 on Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 on Thomann</a></li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Zoom H Essential Series</td>
@@ -127,7 +131,11 @@ Of course, I am always available if you have any questions about any of the prod
                 <td>Native Instruments M32</td>
                 <td>99 €</td>
                 <td>This is the entry-level keyboard from Native Instruments. With 32 keys, it offers the perfect compromise between playability and portability. Smooth, touch-sensitive knobs allow you to quickly and easily edit the parameters of various digital instruments, while clearly defined buttons allow you to control important functions such as start/stop, metronome, undo and more from the keyboard without having to switch to your PC/Mac. This keyboard is perfect for beginners, for those who travel a lot, but also as a control for Native Instruments' own browser functions, while using your professional electric piano for the actual playing of melodies.</td>
-                <td><a href="https://amzn.to/48oWWoP">M32 on Amazon</a> | <a href="https://thmn.to/thoprod/458012?offid=1&affid=3547">M32 on Thomann</a></td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/48oWWoP">M32 on Amazon</a> | <a href="https://thmn.to/thoprod/458012?offid=1&affid=3547">M32 on Thomann</a></li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Native Instruments A Series</td>
@@ -145,7 +153,11 @@ Of course, I am always available if you have any questions about any of the prod
                 <td>Native Instruments S88 MK2</td>
                 <td>1.099 €</td>
                 <td>The largest keyboard from Native Instruments, packed with features and a full 88 keys. This keyboard offers the real piano experience with fully weighted keys and even more additional buttons and control for the instrument browser. Any experienced musician used to a real piano will probably want to look at this range of keyboards. Unfortunately, only the MK2 series of S series keyboards are currently available with speech output. The older MK1 series is no longer supported, while the newer MK3 series does not yet have speech feedback. I will update this list accordingly as soon as the MK3 series receives the necessary update.</td>
-                <td><a href="https://amzn.to/40eGcic">S88 MK2 on Amazon</a> | S88 MK2 currently not available on Thomann</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/40eGcic">S88 MK2 on Amazon</a> | S88 MK2 currently not available on Thomann</li>
+                    </ul>
+                </td>
             </tr>
         </tbody>
     </table>
