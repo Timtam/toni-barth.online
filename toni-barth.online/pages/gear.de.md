@@ -69,51 +69,9 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
 
 <details>
 
-    <summary>Handheld Recorder</summary>
+    <summary>Digitale Instrumente</summary>
 
-    <p>Handheld Recorder, früher hauptsächlich bekannt für den Einsatz bei Interviews, sind zumeist sehr kompakte Geräte, welche schnell und unkompliziert auch unterwegs hochqualitative Aufnahmen anfertigen können. Heutzutage ist deren Aufnahmequalität so gut, dass sie nicht mehr nur für Interviews, sondern auch für Atmosphären, Bandauftritte und Konzertmitschnitte genutzt werden können. Die gesteigerte Aufnahmequalität kommt jedoch auch mit Einstellungsmöglichkeiten einher, welche immer häufiger in komplexen Menüstrukturen aufzufinden sind, welche von blinden und sehbehinderten Nutzern meist auswendig gelernt werden müssen. Zum Glück gibt es auch hier Geräte, welche besser bedienbar sind als Andere, ohne dabei auf hervorragende Aufnahmen verzichten zu müssen.</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th style="width:20%">Gerät</th>
-                <th style="width:20%">Preis</th>
-                <th>Beschreibung</th>
-                <th>Link(s)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Zoom MicTrak M3</td>
-                <td>198 €</td>
-                <td>Das Zoom MicTrak M3 ist ein kompaktes Aufnahmegerät, welches von der Form an einlängliches Mikrofon erinnert, an dessen Basis ein Quader angeschlossen ist, welcher die Batterien und Tasten beherbergt. Das Gerät kommt vollkommen ohne Menüs aus, was die Bedienung stark erleichtert. Allerdings besitzt es auch keinen Lautsprecher, es kann jedoch über Kopfhörer abgehört werden. Die Form und funktionsweise qualifiziert es wunderbar für atmosphärische Aufnahmen, Interviewsituationen und als Kamera-Mikrofon, weshalb es auch mit einem Blitzschuh-Adapter für Selbige geliefert wird. Der Aufbau des Mikrofons ermöglicht vielfältige Aufnahmen. So können Stereo-Aufnahmen mit 90 Grad und 120 Grad Panorama angefertigt werden. Aufgezeichnet wird in 32-bit Float auf eine Micro SD Karte, wobei die 32-Bit Float Technologie dafür sorgt, dass die Aufnahmen nur sehr, sehr selten übersteuern werden und nachträglich am PC zu laute, oder auch zu leise Stellen in der Aufnahme mühelos nachbearbeitet werden können.</td>
-                <td>
-                    <ul>
-                        <li><a href="https://amzn.to/3YiMHhf">MicTrak M3 bei Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 bei Thomann</a></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Zoom H Essential Serie</td>
-                <td>Von 109 € bis 326 €</td>
-                <td>Bei der Zoom H Essential Serie handelt es sich um eine Reihe von Geräten, welche mit einem eingebauten Stereo-Mikrofon daher kommen, welche bereits von sich aus hervorragende Aufnahmen mit 32-Bit Float Technologie ermöglichen, also sehr viel besser als traditionelle 24-Bit Aufnahmen gegen Übersteuerung geschützt sind. Die Geräte ermöglichen vielfältige Einstellungen direkt am Gerät, wobei die Menüstruktur vollständig mit Sprachausgabe über den im Gerät verbauten Lautsprecher oder über die Kopfhörerbuchse ausgegeben werden kann. Das kleinste Gerät, der H1Essential, besitzt zusätzlich zu den eingebauten Mikrofonen noch eine 3,5 mm Klinkenbuchse für den alternativen Anschluss von externen Mikrofonen wie bspw. einem Lavalier-Mikrofon. Das H4Essential und H6Essential besitzen zusätzlich 2 bzw. 4 XLR-Eingänge, um selbst professionelle Studiomikrofone aufzeichnen zu können. Alle Geräte lassen sich auch am PC/Mac/Smartphone als Audio Interface verwenden, was sie auch unterwegs zu einer flexiblen Aufnahmelösung macht.</td>
-                <td>
-                    <ul>
-                        <li><a href="https://amzn.to/4e1SJc5">H1Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585331?offid=1&affid=3547">H1Essential bei Thomann</a></li>
-                        <li><a href="https://amzn.to/3UpnIrH">H4Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585324?offid=1&affid=3547">H4Essential bei Thomann</a></li>
-                        <li><a href="https://amzn.to/3Yk2ix6">H6Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585336?offid=1&affid=3547">H6Essential bei Thomann</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</details>
-
-<details>
-
-    <summary>Keyboards</summary>
-
-    <p>Keyboards gibt es in allen denkbaren Größen und Formen. Viele davon bieten heutzutage zusätzliche Funktionen, welche über die einfache Klaviatur weit hinaus gehen. Nicht alle davon sind bedienbar, sodass sich der Aufpreis tatsächlich lohnen würde. Hierbei zeichnet sich insbesondere Native Instruments für ihre Barrierefreiheit aus, da Keyboards dieses Herstellers sogar eine Sprachausgabe besitzen. In dieser Liste findet ihr daher alle Keyboards, welche ich empfehlen kann, und warum.</p>
+    <p>Neben regulären Musikinstrumenten, welche es in allen Formen und Farben gibt, werden im Zusammenspiel mit dem PC oder dem Mac oft digitale Instrumente eingesetzt, um Musik direkt im Computer zu erzeugen. Diese digitalen Instrumente sind jedoch nicht immer leicht zugänglich. Keyboards beispielsweise gibt es in allen denkbaren Größen und Formen. Viele davon bieten heutzutage zusätzliche Funktionen, welche über die einfache Klaviatur weit hinaus gehen. Nicht alle davon sind bedienbar, sodass sich der Aufpreis tatsächlich lohnen würde. Hierbei zeichnet sich insbesondere Native Instruments für ihre Barrierefreiheit aus, da Keyboards dieses Herstellers sogar eine Sprachausgabe besitzen. In dieser Liste findet ihr alle digitalen Instrumente, welche ich empfehlen kann, und warum.</p>
     
     <table>
         <thead>
@@ -154,6 +112,58 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
                 <td>
                     <ul>
                         <li><a href="https://amzn.to/40eGcic">S88 MK2 bei Amazon</a> | S88 MK2 derzeit nicht bei Thomann verfügbar</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Yamaha FGDP-30</td>
+                <td>170 €</td>
+                <td>Bei diesem Instrument handelt es sich um kein Keyboard, sondern um ein Finger-Drumming Pad. Das heißt, dieses dient dazu, ein Schlagzeug möglichst realistisch mit den Fingern einspielen zu können. Was dieses Fingerdrumming Pad auszeichnet ist die Esistenz einer Sprachausgabe für jegliche Funktionen des Geräts, da es ansonsten ohne Display auskommt. Das Vorhandensein von zwei Pads für jede Art Drums erleichtert zudem das Spielen von Rolls und die Anpassung des Pads auf die Gewohnheiten des Musikers. Die größere Variante dieses Pads, das FGDP-50, besitzt ein Display und spart daher die Sprachausgabe ein, weshalb ich dieses nicht vollumfassend empfehlen kann.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3O11E2L">FGDP-30 bei Amazon</a> | <a href="https://thmn.to/thoprod/575108?offid=1&affid=3547">FGDP-30 bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details>
+
+    <summary>Handheld Recorder</summary>
+
+    <p>Handheld Recorder, früher hauptsächlich bekannt für den Einsatz bei Interviews, sind zumeist sehr kompakte Geräte, welche schnell und unkompliziert auch unterwegs hochqualitative Aufnahmen anfertigen können. Heutzutage ist deren Aufnahmequalität so gut, dass sie nicht mehr nur für Interviews, sondern auch für Atmosphären, Bandauftritte und Konzertmitschnitte genutzt werden können. Die gesteigerte Aufnahmequalität kommt jedoch auch mit Einstellungsmöglichkeiten einher, welche immer häufiger in komplexen Menüstrukturen aufzufinden sind, welche von blinden und sehbehinderten Nutzern meist auswendig gelernt werden müssen. Zum Glück gibt es auch hier Geräte, welche besser bedienbar sind als Andere, ohne dabei auf hervorragende Aufnahmen verzichten zu müssen.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width:20%">Gerät</th>
+                <th style="width:20%">Preis</th>
+                <th>Beschreibung</th>
+                <th>Link(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zoom MicTrak M3</td>
+                <td>198 €</td>
+                <td>Das Zoom MicTrak M3 ist ein kompaktes Aufnahmegerät, welches von der Form an einlängliches Mikrofon erinnert, an dessen Basis ein Quader angeschlossen ist, welcher die Batterien und Tasten beherbergt. Das Gerät kommt vollkommen ohne Menüs aus, was die Bedienung stark erleichtert. Allerdings besitzt es auch keinen Lautsprecher, es kann jedoch über Kopfhörer abgehört werden. Die Form und funktionsweise qualifiziert es wunderbar für atmosphärische Aufnahmen, Interviewsituationen und als Kamera-Mikrofon, weshalb es auch mit einem Blitzschuh-Adapter für Selbige geliefert wird. Der Aufbau des Mikrofons ermöglicht vielfältige Aufnahmen. So können Stereo-Aufnahmen mit 90 Grad und 120 Grad Panorama angefertigt werden. Aufgezeichnet wird in 32-bit Float auf eine Micro SD Karte, wobei die 32-Bit Float Technologie dafür sorgt, dass die Aufnahmen nur sehr, sehr selten übersteuern werden und nachträglich am PC zu laute, oder auch zu leise Stellen in der Aufnahme mühelos nachbearbeitet werden können.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3YiMHhf">MicTrak M3 bei Amazon</a> | <a href="https://thmn.to/thoprod/557323?offid=1&affid=3547">MicTrak M3 bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Zoom H Essential Serie</td>
+                <td>Von 109 € bis 326 €</td>
+                <td>Bei der Zoom H Essential Serie handelt es sich um eine Reihe von Geräten, welche mit einem eingebauten Stereo-Mikrofon daher kommen, welche bereits von sich aus hervorragende Aufnahmen mit 32-Bit Float Technologie ermöglichen, also sehr viel besser als traditionelle 24-Bit Aufnahmen gegen Übersteuerung geschützt sind. Die Geräte ermöglichen vielfältige Einstellungen direkt am Gerät, wobei die Menüstruktur vollständig mit Sprachausgabe über den im Gerät verbauten Lautsprecher oder über die Kopfhörerbuchse ausgegeben werden kann. Das kleinste Gerät, der H1Essential, besitzt zusätzlich zu den eingebauten Mikrofonen noch eine 3,5 mm Klinkenbuchse für den alternativen Anschluss von externen Mikrofonen wie bspw. einem Lavalier-Mikrofon. Das H4Essential und H6Essential besitzen zusätzlich 2 bzw. 4 XLR-Eingänge, um selbst professionelle Studiomikrofone aufzeichnen zu können. Alle Geräte lassen sich auch am PC/Mac/Smartphone als Audio Interface verwenden, was sie auch unterwegs zu einer flexiblen Aufnahmelösung macht.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/4e1SJc5">H1Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585331?offid=1&affid=3547">H1Essential bei Thomann</a></li>
+                        <li><a href="https://amzn.to/3UpnIrH">H4Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585324?offid=1&affid=3547">H4Essential bei Thomann</a></li>
+                        <li><a href="https://amzn.to/3Yk2ix6">H6Essential bei Amazon</a> | <a href="https://thmn.to/thoprod/585336?offid=1&affid=3547">H6Essential bei Thomann</a></li>
                     </ul>
                 </td>
             </tr>
