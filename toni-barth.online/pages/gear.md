@@ -172,3 +172,64 @@ Of course, I am always available if you have any questions about any of the prod
         </tbody>
     </table>
 </details>
+
+<details>
+
+    <summary>Microphones</summary>
+
+    <p>Microphones tend to have the least accessibility requirements, as they also offer limited possibilites of interaction. This list contains a selection of my favourite microphones, what I use them for, and what to look out for when using them.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width:20%">Device</th>
+                <th style="width:20%">Price</th>
+                <th>Description</th>
+                <th>Link(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lewitt LCT 440 Pure</td>
+                <td>249 €</td>
+                <td>The LCT 440 Pure is a small and lightweight large diaphragm condenser microphone with a cardioid polar pattern, designed primarily for use with human speech. Being a large-diaphragm condenser microphone, it is very sensitive to noise, so I would only recommend it in reasonably well-isolated environments. In fact, it can do a lot more than just pick up speech though. I have already used the LCT 440 Pure to record acoustic guitars and was delighted with the results. The package also includes a leather carrying case, a shock-mount, a windscreen and a magnetic pop filter. The small size of the microphone and the pop filter require a little practice when speaking into them to avoid plosive sounds on the recording, but overall this microphone delivers very good performance at an unexpectedly low price. It is XLR-compatible, although it does require 48 volts of phantom power. However, the microphone's preamp does not require a lot of power, making it suitable for use with less powerful audio interfaces.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/494bCKJ">LCT 440 Pure on Amazon</a> | <a href="https://thmn.to/thoprod/412424?offid=1&affid=3547">LCT 440 Pure on Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>RØDE Wireless PRO</td>
+                <td>349 €</td>
+                <td>The RØDE Wireless PRO is a set of two transmitters, one receiver and two lavalier microphones, including various windscreens and clamps. It is ideal for all types of interview situations, outdoor miking and video recording. The transmitters can be worn on clothing or on the body and come with a built-in microphone, but can be supplemented with the lavalier microphones for even clearer recording. The lavalier microphones are extremely small and can be attached to clothing or directly to the body, for example in the hair. The small size makes them very discreet, and the wireless transmission means maximum freedom of movement. The transmitter and receiver come in a stylish leather case that doubles as a charging station for all three devices. On a single charge, the transmitters and receiver can record continuously for around 6 hours. The transmitters record in 32-bit, making it easy to save a potentially clipped recording afterwards. In addition, the transmitters can be connected to any type of microphone that has a 3.5mm jack. The set also includes software for controlling the various functions of the devices and managing the recordings. Unfortunately, the software is currently only accessible to screen readers using advanced techniques such as OCR and Object Navigator. Feel free to contact me for more information.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/4et15cQ">Wireless Pro on Amazon</a> | <a href="https://thmn.to/thoprod/574246?offid=1&affid=3547">Wireless Pro on Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Shure SM7B / Shure SM7dB</td>
+                <td>From 389 € to 519 €</td>
+                <td>The SM7B is a classic vocal microphone. It has been on the market for over 50 years and continues to impress with its special sound, but also with its low sensitivity to ambient noise. Dynamic microphones, of which the SM7B is one, are generally less sensitive to noise that is not directly in their pick-up area, making them suitable for use on stage or in complex environments. I use the SM7B in these difficult areas all the time, and it does an excellent job. The microphone comes with two different pop filters and is otherwise very bulky and heavy, which is why I recommend it mainly for studio use. The microphone does not require 48V phantom power but a powerful, low-noise mic preamp, which can sometimes lead to noisy recordings with weaker audio interfaces. Shure has a solution to this problem. For some time now, the SM7dB has been available, which is the SM7B with an integrated microphone preamp. This means that although 48V phantom power is required, no significant pre-amp is required. So if you are unsure, the SM7dB can provide the necessary reassurance. However, all of the audio interfaces I have listed on this website are capable of using the original SM7B with ease.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3YNk4cd">SM7B on Amazon</a> | <a href="https://thmn.to/thoprod/129929?offid=1&affid=3547">SM7B on Thomann</a></li>
+                        <li>SM7dB currently not available on Amazon | <a href="https://thmn.to/thoprod/573672?offid=1&affid=3547">SM7dB on Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Sennheiser Ambeo VR Mic</td>
+                <td>1.475 €</td>
+                <td>The price says it all: the Ambeo VR Mic is a microphone for enthusiasts. This is an Ambisonics microphone. This means that there are actually four microphones hidden inside the microphone, arranged in a very specific pattern. Recordings made with this microphone result in the Ambisonics format, which is a variant of 3D audio with a very realistic representation of positions in a room. These recordings are particularly suitable for scoring audio dramas or films, or simply for personal enjoyment. Recording requires an audio interface or recording device with at least 4 XLR inputs, such as the Zoom H6Essential. Dedicated plug-ins or software may also be required for further processing. Please contact me if you would like to know more.</td>
+                <td>
+                    <ul>
+                        <li>Ambeo VR Mic currently not available on Amazon | <a href="https://thmn.to/thoprod/404871?offid=1&affid=3547">Ambeo VR Mic on Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</details>

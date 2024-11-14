@@ -170,3 +170,64 @@ Natürlich stehe ich jeder Zeit zur Verfügung, solltest du dennoch Fragen zu ei
         </tbody>
     </table>
 </details>
+
+<details>
+
+    <summary>Mikrofone</summary>
+
+    <p>Mikrofone stellen üblicherweise am wenigsten Anforderungen an Barrierefreiheit, da sie auch nur wenig Möglichkeiten für die Interaktion bieten. Diese Liste beinhaltet daher eine Auswahl meiner Lieblings-Mikrofone, wofür ich sie einsetze und was dabei beachtet werden sollte.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width:20%">Gerät</th>
+                <th style="width:20%">Preis</th>
+                <th>Beschreibung</th>
+                <th>Link(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lewitt LCT 440 Pure</td>
+                <td>249 €</td>
+                <td>Bei dem LCT 440 Pure handelt es sich um ein kleines, leichtes Großkondensator-Mikrofon mit Nierencharakteristik, welches hauptsächlich für die Verwendung mit menschlicher Sprache entwickelt wurde. Da es sich hier um ein Großkondensator-Mikrofon handelt, reagiert es sehr empfindlich auf jegliche Geräusche, weshalb ich die Empfehlung nur in einigermaßen gut isolierten Umgebungen empfehlen würde. Tatsächlich kann es dort allerdings noch viel mehr als nur Sprache. So habe ich das LCT 440 Pure auch bereits für die Abnahme von Akustikgitarren genutzt und war von dem Ergebnis begeistert. Mitgeliefert werden zudem ein Leder-Etui, eine Halterung, ein Windschutz sowie ein magnetischer Pop-Filter. Die geringe Größe des Mikrofons und des Popschutzes verlangen ein wenig Übung beim Einsprechen, um nicht etwa doch Plosivlaute auf der Aufnahme zu haben, dafür liefert dieses Mikrofon alles in Allem ein sehr gute Leistung zu einem unerwartet geringen Preis. Angesprochen werden kann es über XLR, wobei es eine 48 Volt Phantomspeisung voraussetzt. Allerdings wird ansonsten keine hohe Leistung des Mikrofon-Vorverstärkers verlangt, weshalb das Mikrofon auch für leistungsschwächere Audio-Interfaces empfehlenswert ist.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/494bCKJ">LCT 440 Pure bei Amazon</a> | <a href="https://thmn.to/thoprod/412424?offid=1&affid=3547">LCT 440 Pure bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>RØDE Wireless PRO</td>
+                <td>349 €</td>
+                <td>Bei dem RØDE Wireless PRO handelt es sich um ein Set, bestehend aus zwei Sendern, einem Empfänger und zwei Lavalier-Mikrofonen inklusive diverse Windschutz- und Halter-Klemmen. Der bevorzugte Anwendungszweck sind jegliche Art von Interview-Situationen, Outdoor-Mikrofonierung, oder Video-Aufzeichnung. Die Sender können an Kleidung oder Körper befestigt werden und beinhalten selbst ein Mikrofon, können aber mithilfe der Lavalier-Mikrofone ergänzt werden und somit eine noch klarere Aufnahme zu erreichen. Die Lavalier-Mikrofone sind denkbar klein und können an der Kleidung oder direkt am Körper, beispielsweise in den Haaren, befestigt werden. Die sehr geringe Größe macht die Mikrofone sehr unauffällig, die kabellose Übertragung bedeutet maximale Bewegungsfreiheit. Die Sender und der Empfänger werden in einem stylischen Leder-Kästchen geliefert, welches zugleich auch die Ladestation für alle drei Geräte ist. Mit einer Ladung können Sender und Empfänger etwas um 6 Stunden ununterbrochen aufzeichnen. Die Sender zeichnen in 32-Bit auf, was die Rettung der möglicherweise übersteuerten Aufnahme im Nachhinein sehr einfach macht. Zudem kann jede Art von Mikrofon an die Empfänger angeschlosse werden, sofern diese über einen 3,5 mm Klinke-Anschluss verfügen. Zu dem Set gibt es auch eine Software, um diverse Funktionen der Geräte zu steuern und die Aufnahmen zu verwalten. Die Software ist leider derzeit für Screen Reader nur mithilfe erweiterter Techniken wie OCR und Objektnavigator nutzbar. Für genaue Hinweise könnt ihr aber gern Kontakt zu mir aufnehmen.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/4et15cQ">Wireless Pro bei Amazon</a> | <a href="https://thmn.to/thoprod/574246?offid=1&affid=3547">Wireless Pro bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Shure SM7B / Shure SM7dB</td>
+                <td>Von 389 € bis 519 €</td>
+                <td>Bei dem SM7B handelt es sich um einen Klassiker der Gesangs- und Sprach-Mikrofone. Seit über 50 Jahren auf dem Markt begeistert es immer wieder durch seinen besonderen Sound, insbesondere bei Anwendung mit Sprache, aber auch durch seine geringe Empfindlichkeit gegenüber Umgebungsgeräuschen. Dynamische Mikrofone, zu denen das SM7B gehört, sprechen generell weniger empfindlich auf Geräusche an, welche nicht direkt in ihrem Aufnahmebereich liegen, was sie auch für Bühnen- oder komplizierte Umgebungen geeignet macht. Das SM7B wird von mir in solch einem schwierigen Bereich immer wieder eingesetzt und macht hier einen hervorragenden Job. Das Mikrofon kommt mit zwei unterschiedlichen Pop-Filtern und ist ansonsten sehr klobig und schwer, weshalb ich es hauptsächlich für den Studioeinsatz empfehle. Das Mikrofon bedarf keiner 48 Volt Phantomspeisung und eines starken und rauscharmen Mikrofon-Vorverstärkers, weshalb es an schwächeren Audio-Interfaces schon einmal zu stark verrauschten Aufnahmen kommen kann. Dafür hat Shure jedoch auch eine Lösung im Gepäck. So gibt es seit einiger Zeit das SM7dB, wobei es sich um das SM7B mit integriertem Mikrofon-Vorverstärker handelt, sodass zwar eine 48 Volt Phantomspeisung, aber keine nennenswerte Vorverstärkung mehr notwendig ist. Wenn du dir also unsicher sein solltest, kann der Griff zum SM7dB die notwendige Sicherheit bringen. Alle von mir auf dieser Webseite gelisteten Audio-Interfaces sind jedoch auch problemlos dazu in der Lage, das originale SM7B ohne eigenen Vorverstärker zu betreiben.</td>
+                <td>
+                    <ul>
+                        <li><a href="https://amzn.to/3YNk4cd">SM7B bei Amazon</a> | <a href="https://thmn.to/thoprod/129929?offid=1&affid=3547">SM7B bei Thomann</a></li>
+                        <li>SM7dB derzeit nicht bei Amazon verfügbar | <a href="https://thmn.to/thoprod/573672?offid=1&affid=3547">SM7dB bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Sennheiser Ambeo VR Mic</td>
+                <td>1.475 €</td>
+                <td>Der Preis verrät es bereits: das Ambeo VR Mic ist ein Mikrofon für Enthusiasten. Bei diesem Mikrofon handelt es sich um ein sogenanntes Ambisonics Mikrofon. Das bedeutet, dass sich in dem Mikrofon tatsächlich vier Mikrofone verbergen, welche in einer ganz bestimmten Anordnung angeordnet sind. Die Aufnahmen mit diesem Mikrofon resultieren in dem Ambisonics-Format, welches eine Variante des 3D-Audio ist und mit einer besonders realistischen Abbildung der Positionen in einem Raum überzeugt. Diese Aufnahmen eignen sich besonders gut für Vertonungen von Hörspielen oder Filmen, aber auch einfach für den ganz persönlichen Genuss. Für die Aufzeichnung ist jedoch auch ein Audio-Interface oder Aufnahmegerät mit mindestens 4 XLR-Eingängen notwendig, so beispielsweise das Zoom H6Essential. Auch für die Weiterverarbeitung sind ggf. dedizierte Plugins oder Software notwendig. Wenn du Genaueres dazu wissen möchtest, kannst du mich gern darauf ansprechen.</td>
+                <td>
+                    <ul>
+                        <li>Ambeo VR Mic derzeit nicht bei Amazon verfügbar | <a href="https://thmn.to/thoprod/404871?offid=1&affid=3547">Ambeo VR Mic bei Thomann</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</details>
