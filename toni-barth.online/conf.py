@@ -147,6 +147,7 @@ NAVIGATION_LINKS = {
         ("/teaching/index.html", "Teaching"),
         (
             (
+                ("https://hitster.toni-barth.online", "Hitster online - an online implementation of the award-winning music card game"),
                 ("https://github.com/MatejGolian/ReaHotkey", "ReaHotkey - accessibility for various audio software and plugins"),
                 ("https://timtam.github.io/musicalsight/", "MusicalSight - accessible musical helpers in your browser"),
                 ("https://github.com/Timtam/tcview", "TCView - Audio file preview for Total Commander"),
@@ -165,6 +166,7 @@ NAVIGATION_LINKS = {
         ("/de/contributions/index.html", "Externe Beiträge"),
         (
             (
+                ("https://hitster.toni-barth.online", "Hitster online - Eine Online-Implementierung des preisgekrönten Musik-Kartenspiels"),
                 ("https://github.com/MatejGolian/ReaHotkey", "ReaHotkey - Zugänglichkeit zu Audioplugins und -software (Englisch)"),
                 ("https://timtam.github.io/musicalsight/", "MusicalSight - barrierefreie Musiktheorie und Hilfsmittel im Browser"),
                 ("https://github.com/Timtam/tcview", "TCView - Vorschau für Audiodateien in Total Commander"),
