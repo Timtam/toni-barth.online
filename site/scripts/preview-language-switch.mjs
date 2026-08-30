@@ -1,6 +1,7 @@
-// Lokaler Testserver ohne Abhängigkeiten: serviert dist/ und bildet exakt die
-// Sprachweiche aus nginx/default.conf nach, damit der Accept-Language-Redirect
-// auch ohne Docker/nginx erlebbar ist. Start: npm run preview:sprachweiche
+// Local test server without dependencies: serves dist/ and mirrors the
+// language switch from nginx/default.conf exactly, so the Accept-Language
+// redirect can be experienced without Docker/nginx.
+// Start: npm run preview:language-switch
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join } from 'node:path';
@@ -20,8 +21,9 @@ const types = {
   '.txt': 'text/plain; charset=utf-8',
 };
 
-// Alte Nikola-URLs (lagen ohne Präfix): zweisprachige Seiten verhandeln die
-// Sprache, nur-englische gehen fest nach /en/ (Spiegel von nginx/default.conf)
+// Old Nikola URLs (used to live without a prefix): bilingual pages negotiate
+// the language, English-only ones go straight to /en/ (mirror of
+// nginx/default.conf)
 const legacyBilingual = /^\/(teaching|gear|contact|support|privacy-policy)(\/|$)/;
 const legacyEnglishOnly = /^\/(music|resume)(\/|$)/;
 
@@ -38,11 +40,11 @@ createServer(async (req, res) => {
     return;
   }
 
-  // Die Sprachweiche: nur auf der nackten Startseite
+  // The language switch: only on the bare start page
   if (path === '/') {
     const acceptLanguage = req.headers['accept-language'] ?? '';
     const target = /^de/i.test(acceptLanguage) ? '/de/' : '/en/';
-    console.log(`302 / -> ${target} (Accept-Language: ${acceptLanguage || 'nicht gesetzt'})`);
+    console.log(`302 / -> ${target} (Accept-Language: ${acceptLanguage || 'not set'})`);
     res.writeHead(302, { Location: target, Vary: 'Accept-Language' }).end();
     return;
   }
@@ -58,7 +60,7 @@ createServer(async (req, res) => {
     return;
   }
 
-  // Verzeichnis-URLs auf index.html abbilden (macht nginx genauso)
+  // Map directory URLs to index.html (nginx does the same)
   if (!path.endsWith('/') && !extname(path)) {
     res.writeHead(301, { Location: path + '/' }).end();
     return;
@@ -75,9 +77,9 @@ createServer(async (req, res) => {
   } catch {
     res
       .writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' })
-      .end('404 – nicht gefunden');
+      .end('404 - not found');
   }
 }).listen(port, () => {
-  console.log(`Sprachweiche-Preview läuft auf http://localhost:${port}/`);
-  console.log('Beenden mit Strg+C.');
+  console.log(`Language-switch preview running at http://localhost:${port}/`);
+  console.log('Stop with Ctrl+C.');
 });

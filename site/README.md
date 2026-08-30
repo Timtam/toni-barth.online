@@ -13,7 +13,7 @@ npm install        # einmalig: Abhängigkeiten installieren
 npm run dev        # Dev-Server auf http://localhost:4321 (Strg+C zum Beenden)
 npm run build      # statischen Build nach dist/ erzeugen
 npm run preview    # den fertigen Build aus dist/ lokal servieren
-npm run preview:sprachweiche  # dist/ mit nginx-artiger Sprachweiche (Port 8080)
+npm run preview:language-switch  # dist/ mit nginx-artiger Sprachweiche (Port 8080)
 npm run lint       # ESLint mit jsx-a11y-Barrierefreiheitsregeln (streng)
 ```
 
@@ -52,11 +52,13 @@ blockieren; `npx astro dev logs`, `... status` und `... stop` verwalten ihn.
 
 ## Deployment
 
-Das Repo-Root enthält `Dockerfile` (Node-Builder → nginx) und
-`nginx/default.conf` (Sprachweiche + Redirects). Der GitHub-Workflow
-`.github/workflows/push_docker.yaml` baut bei jedem Push auf master zuerst das
-CV (Typst 0.15.1, gepinnt), dann das Multi-Arch-Docker-Image und pusht es zu
-Docker Hub.
+Das Repo-Root enthält `Dockerfile` (CV-Stage mit Typst → Node-Builder →
+nginx) und `nginx/default.conf` (Sprachweiche + Redirects). Ein
+`docker build` ist damit vollständig selbstversorgend: Es baut zuerst den
+Lebenslauf (Typst 0.15.1, gepinnt), dann die Site. Der GitHub-Workflow
+`.github/workflows/push_docker.yaml` baut bei jedem Push auf master das
+Multi-Arch-Image und pusht es zu Docker Hub; ein Jahres-Cron erneuert die
+Copyright-Jahresspanne im Footer.
 
 ## Prüf-Werkzeuge
 

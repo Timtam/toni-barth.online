@@ -1,13 +1,13 @@
 ---
-// Ersatz für den Nikola-Shortcode `{{% audio %}}` (shortcodes/audio.tmpl).
-// Nutzung in .mdx-Dateien:
+// Replacement for the Nikola shortcode `{{% audio %}}` (shortcodes/audio.tmpl).
+// Usage in .mdx files:
 //   import Audio from '../../components/Audio.astro';
 //   <Audio src="https://example.com/episode.mp3" nodownload />
 interface Props {
   src: string;
-  /** Beschriftung vor dem Download-Link */
+  /** Label preceding the download link */
   downloadLabel?: string;
-  /** Download-Link ausblenden (wie `nodownload=1` im alten Shortcode) */
+  /** Hide the download link (like `nodownload=1` in the old shortcode) */
   nodownload?: boolean;
 }
 

@@ -1,5 +1,5 @@
-// UI-Strings des CV-Templates pro Sprache. Die Inhalte selbst kommen aus den
-// JSON-Resume-Dateien (cv/<lang>.json); hier stehen nur Beschriftungen.
+// Per-language UI strings for the CV template. The content itself comes from
+// the JSON Resume files (cv/<lang>.json); only labels live here.
 
 #let locales = (
   en: (

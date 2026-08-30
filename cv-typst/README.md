@@ -83,9 +83,9 @@ automatisch auch Deutsch (`CV_Toni_Barth_DE.pdf`, `resume-de.html` — dann noch
 - Empfohlene Endkontrolle des PDFs: veraPDF oder PAC (PDF Accessibility
   Checker) sowie ein NVDA-Durchgang in Acrobat — Typst validiert UA-1 beim
   Bauen, aber Lesefluss prüft nur ein Mensch.
-- Deployment: Der GitHub-Workflow (`.github/workflows/push_docker.yaml`)
-  installiert Typst 0.15.1 (gepinnt), führt `cv-typst/build.sh` aus und baut
-  danach das Docker-Image — das CV wird also bei jedem Push automatisch frisch
-  aus `cv/en.json` erzeugt.
+- Deployment: Der CV-Build steckt im `Dockerfile` (eigene `cv`-Stage mit
+  gepinntem Typst 0.15.1, führt `cv-typst/build.sh` aus) — jedes
+  `docker build` erzeugt das CV frisch aus `cv/en.json`, ganz ohne
+  Vorarbeit; der GitHub-Workflow baut nur noch das Image.
 - Der alte Weg (`cv/themes/`, `cv/convert_to_pdf.py`, WeasyPrint — erzeugte
   ungetaggte PDFs) wird nicht mehr gebraucht, sobald dieser Weg produktiv ist.

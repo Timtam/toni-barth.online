@@ -1,5 +1,5 @@
-// Deutsche Fassung — erwartet cv/de.json im JSON-Resume-Format.
-// Bauen (vom Repo-Root aus):
+// German version — expects cv/de.json in JSON Resume format.
+// Build (from the repo root):
 //   PDF:  typst compile --root . --pdf-standard ua-1,a-2a cv-typst/cv-de.typ CV_Toni_Barth_DE.pdf
 //   HTML: typst compile --root . --features html --format html cv-typst/cv-de.typ resume-de.html
 #import "/cv-typst/jsonresume.typ": cv, setup

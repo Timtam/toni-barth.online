@@ -1,30 +1,29 @@
-// Eigenes CV-Template: rendert eine JSON-Resume-Datei (jsonresume.org, v1.0.0)
-// als semantisches Dokument, das sowohl als PDF/UA-1 (typst compile
-// --pdf-standard ua-1,a-2a) als auch als HTML (--features html --format html)
-// sauber baut. Bewusste Design-Entscheidungen für Barrierefreiheit:
-//  - echte, konsekutive Überschriften (Sektionen = Ebene 1, Einträge = Ebene 2),
-//    Überschriften enthalten nur reinen Text (keine Links/Kontext-Ausdrücke)
-//  - keine Icon-Fonts, keine Layout-Tabellen, keine absolute Platzierung
-//  - dekorative Linien sind im PDF als Artefakt markiert
-//  - Layout-Unterschiede (z. B. rechtsbündige Daten) nur im paged-Target;
-//    das HTML-Target bekommt reinen semantischen Fluss
+// Custom CV template: renders a JSON Resume file (jsonresume.org, v1.0.0)
+// as a semantic document that builds cleanly both as PDF/UA-1 (typst compile
+// --pdf-standard ua-1,a-2a) and as HTML (--features html --format html).
+// Deliberate accessibility design decisions:
+//  - real, consecutive headings (sections = level 1, entries = level 2);
+//    headings contain plain text only (no links/context expressions)
+//  - no icon fonts, no layout tables, no absolute placement
+//  - decorative rules are marked as artifacts in the PDF
+//  - layout differences (e.g. right-aligned dates) exist only in the paged
+//    target; the HTML target gets pure semantic flow
 
 #import "locales.typ": locales
 
-// ---- Design-Konstanten (nur fürs paged-Target relevant) --------------------
-// Dunkles Indigo, an das bisherige THEME_COLOR (#5670d4) angelehnt, aber für
-// WCAG-AA-Kontrast auf Weiß abgedunkelt (~9:1). Grau für Metadaten: 7,5:1.
+// ---- Design constants (only relevant for the paged target) -----------------
+// Dark indigo, derived from the previous THEME_COLOR (#5670d4) but darkened
+// for WCAG AA contrast on white (~9:1). Gray for metadata: 7.5:1.
 #let accent = rgb("#2e3f8f")
 #let subtle = rgb("#555555")
 
-// basics.image nennt eine Bilddatei (z. B. "/images/profile.jpg" oder nur
-// "profile.jpg"); fürs PDF wird der Dateiname in site/src/assets gesucht —
-// dort liegt das Bild als einzige Quelle, aus der auch Astro die optimierten
-// Web-Varianten erzeugt. http(s)-URLs kann Typst nicht laden — solche Werte
-// werden ignoriert.
+// basics.image names an image file (e.g. "/images/profile.jpg" or just
+// "profile.jpg"); for the PDF the file name is resolved in site/src/assets —
+// the single source from which Astro also derives the optimized web
+// variants. Typst cannot fetch http(s) URLs — such values are ignored.
 #let site-assets = "/site/src/assets"
 
-// ---- Helfer für optionale JSON-Felder --------------------------------------
+// ---- Helpers for optional JSON fields --------------------------------------
 
 #let getstr(d, k) = {
   if k in d and type(d.at(k)) == str and d.at(k).trim() != "" {
@@ -38,9 +37,9 @@
   } else { none }
 }
 
-// ---- Datumsformatierung ----------------------------------------------------
+// ---- Date formatting -------------------------------------------------------
 
-// ISO-Datum ("2021", "2021-07" oder "2021-07-23") -> "Juli 2021"
+// ISO date ("2021", "2021-07" or "2021-07-23") -> "July 2021"
 #let fmt-date(loc, iso) = {
   if iso == none { return none }
   let parts = iso.split("-")
@@ -49,7 +48,7 @@
   month + " " + parts.at(0)
 }
 
-// Zeitraum; fehlendes Ende -> "heute"/"present"; ganz ohne Daten -> nichts
+// Date range; missing end -> "present"/"heute"; no dates at all -> nothing
 #let daterange(loc, start, end) = {
   if start == none and end == none { return none }
   let s = fmt-date(loc, start)
@@ -57,19 +56,19 @@
   if s == none { e } else { s + " – " + e }
 }
 
-// Mehrzeiligen JSON-String in Absätze aufteilen
+// Split a multi-line JSON string into paragraphs
 #let paragraphs(text) = {
   text.split("\n").map(s => s.trim()).filter(s => s != "").join(parbreak())
 }
 
-// Teile mit " · " verbinden (none-Einträge fallen weg)
+// Join parts with " · " (none entries are dropped)
 #let dotline(..parts) = {
   parts.pos().filter(p => p != none).join([ · ])
 }
 
-// Kurzer, eindeutiger Anzeigetext für eine URL: Domain samt Pfad, solange das
-// kompakt bleibt (z. B. "github.com/Timtam/ReaLackey"), sonst nur die Domain
-// (z. B. "thinkmind.org").
+// Short, unique display text for a URL: domain plus path while that stays
+// compact (e.g. "github.com/Timtam/ReaLackey"), otherwise just the domain
+// (e.g. "thinkmind.org").
 #let url-label(url) = {
   let stripped = url.split("//").at(1, default: url)
   if stripped.ends-with("/") { stripped = stripped.slice(0, stripped.len() - 1) }
@@ -77,10 +76,10 @@
   if stripped.len() <= 40 { stripped } else { stripped.split("/").at(0) }
 }
 
-// Link mit url-label als Linktext statt roher URL
+// Link using url-label as its text instead of the raw URL
 #let link-host(url) = link(url)[#url-label(url)]
 
-// ---- Dokument-Setup (Fonts, Überschriften-Stil) ----------------------------
+// ---- Document setup (fonts, heading styles) --------------------------------
 
 #let setup(body) = {
   set text(
@@ -115,14 +114,14 @@
     if target() == "paged" { underline(text(fill: accent, it)) } else { it }
   }
 
-  // URLs im Fließtext (z. B. in summary-Feldern) automatisch verlinken.
-  // Satzzeichen am Ende (Punkt, Komma, schließende Klammer …) bleiben außen
-  // vor. Voraussetzung: Kein bestehender Link zeigt eine rohe URL als
-  // Linktext an (dafür sorgt link-host), sonst entstünden verschachtelte
-  // Links, die PDF/UA-1 verbietet.
-  // Im PDF zusätzlich in box(): verhindert Zeilenumbruch mitten im Link
-  // (fragmentierte Link-Annotationen werden von Screenreadern doppelt
-  // angesagt); der Link rutscht stattdessen als Ganzes auf die nächste Zeile.
+  // Auto-link URLs in running text (e.g. in summary fields). Trailing
+  // punctuation (period, comma, closing paren, ...) stays outside the link.
+  // Precondition: no explicit link shows a raw URL as its text (link-host
+  // takes care of that), otherwise nested links would appear, which
+  // PDF/UA-1 forbids.
+  // In the PDF additionally wrapped in box(): prevents a line break inside
+  // the link (fragmented link annotations get announced twice by screen
+  // readers); the link moves to the next line as a whole instead.
   show regex("https?://[^\\s]+[^\\s.,:;)!?]"): it => context {
     if target() == "paged" { box(link(it.text)) } else { link(it.text) }
   }
@@ -130,21 +129,21 @@
   body
 }
 
-// ---- Bausteine -------------------------------------------------------------
+// ---- Building blocks -------------------------------------------------------
 
-// Kopfbereich: Name, Berufsbezeichnung, Kontakt, Profile, Anschrift, Foto
+// Header area: name, job title, contact, profiles, address, photo
 #let render-header(loc, b, is-html) = {
   let label = getstr(b, "label")
 
-  // Kontakt als Daten-Tupel (Label, Linkziel, Anzeigewert); Linkziel none =
-  // reiner Text. Zusammengesetzt wird pro Zielformat unten.
+  // Contact as data tuples (label, link target, display value); link target
+  // none = plain text. Assembled per output target below.
   let contact = ()
   let email = getstr(b, "email")
   if email != none { contact.push((loc.email, "mailto:" + email, email)) }
   let phone = getstr(b, "phone")
   if phone != none {
-    // Geschützte Leerzeichen in der angezeigten Nummer verhindern hässliche
-    // Zeilenumbrüche mitten in der Telefonnummer.
+    // Non-breaking spaces in the displayed number prevent ugly line breaks
+    // in the middle of the phone number.
     contact.push((loc.phone, "tel:" + phone.replace(" ", ""), phone.replace(" ", "\u{a0}")))
   }
   let url = getstr(b, "url")
@@ -168,12 +167,11 @@
   if city != none and city != "" { contact.push((none, none, city)) }
 
   if is-html {
-    // Im HTML-Target liefert die einbettende Seite die H1; der Name wird als
-    // hervorgehobener Absatz ausgegeben. Das Foto wird als <img> mit dem
-    // Website-Pfad emittiert (Asset liegt in site/public); Position und
-    // Optik übernimmt das CSS der einbettenden Seite (.resume-photo,
-    // .resume-contact — siehe resume.astro), damit das Layout dem PDF
-    // entspricht.
+    // In the HTML target the embedding page provides the H1; the name is
+    // emitted as an emphasized paragraph. The photo is emitted as an <img>
+    // with the website path (the asset lives in site/src/assets); position
+    // and styling come from the embedding page's CSS (.resume-photo,
+    // .resume-contact — see resume.astro) so the layout matches the PDF.
     let img = getstr(b, "image")
     if img != none and not img.starts-with("http") {
       html.elem("img", attrs: (
@@ -200,12 +198,12 @@
         block(text(size: 11pt, style: "italic", fill: subtle, label))
       }
       if contact.len() > 0 {
-        // Kompakte zweispaltige Kontaktübersicht; bleibt semantisch eine
-        // Liste (nur die Aufzählungszeichen sind ausgeblendet). Im PDF steht
-        // das Label vor dem Link (nur der Wert ist unterstrichen/farbig).
-        // box() hält jeden Link auf einer Zeile: Ein über den Zeilenumbruch
-        // laufender Link zerfällt im PDF sonst in zwei Link-Annotationen,
-        // die Screenreader als zwei anklickbare Links ansagen.
+        // Compact two-column contact overview; semantically still a list
+        // (only the bullet markers are hidden). In the PDF the label sits
+        // outside the link (only the value is underlined/colored).
+        // box() keeps every link on a single line: a link running across a
+        // line break would otherwise split into two link annotations in the
+        // PDF, which screen readers announce as two clickable links.
         let contact-lines = contact.map(c => {
           let (clabel, dest, value) = c
           if dest == none { [#value] } else { [#clabel: #box(link(dest)[#value])] }
@@ -215,8 +213,8 @@
           set list(marker: none, indent: 0pt, body-indent: 0pt, spacing: 0.55em)
           let half = calc.ceil(contact-lines.len() / 2)
           grid(
-            // auto: linke Spalte so breit wie ihr längster Eintrag (die
-            // E-Mail-Zeile), damit dort nichts umbrechen muss
+            // auto: left column as wide as its longest entry (the email
+            // line) so nothing in it has to wrap
             columns: (auto, 1fr),
             column-gutter: 2em,
             list(..contact-lines.slice(0, half)),
@@ -243,7 +241,7 @@
   }
 }
 
-// Ein Eintrag: Überschrift (nur Text), Meta-Zeile, optionale Details
+// One entry: heading (text only), meta line, optional details
 #let render-entry(loc, is-html, title, meta-parts, dates, ..details) = {
   heading(level: 2, title)
   let meta = dotline(..meta-parts)
@@ -263,7 +261,7 @@
   if not is-html { v(0.75em, weak: true) }
 }
 
-// ---- Sektionen -------------------------------------------------------------
+// ---- Sections --------------------------------------------------------------
 
 #let render-work(loc, entries, is-html) = {
   heading(level: 1, loc.sections.work)
@@ -409,7 +407,7 @@
         if highlights != none { list(..highlights) }
       },
       {
-        // Keywords als dezente Tag-Zeile (hilft auch ATS-Parsern)
+        // Keywords as a subtle tag line (also helps ATS parsers)
         let keywords = getarr(p, "keywords")
         if keywords != none {
           if is-html {
@@ -465,7 +463,7 @@
   }
 }
 
-// ---- Hauptfunktion ---------------------------------------------------------
+// ---- Main function ---------------------------------------------------------
 
 #let cv(data, lang: "en") = context {
   let loc = locales.at(lang)

@@ -1,8 +1,8 @@
 ---
-// Neutraler Einstiegspunkt unter `/`.
-// In Produktion leitet nginx hier anhand des Accept-Language-Headers per 302
-// direkt auf /en/ bzw. /de/ um (siehe nginx/default.conf im Repo-Root).
-// Diese Seite ist der barrierefreie Fallback für alle anderen Fälle.
+// Neutral entry point at `/`.
+// In production nginx redirects here via 302 to /en/ or /de/ based on the
+// Accept-Language header (see nginx/default.conf in the repo root).
+// This page is the accessible fallback for every other case.
 ---
 
 <html lang="en">

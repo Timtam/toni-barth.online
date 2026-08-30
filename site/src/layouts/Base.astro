@@ -10,26 +10,26 @@ import {
   type Lang,
 } from '../i18n';
 
-// Site-weites Vorschaubild für Link-Previews (Mastodon, LinkedIn …)
+// Site-wide preview image for link previews (Mastodon, LinkedIn, ...)
 const ogImage = await getImage({ src: profilePic, format: 'jpeg' });
 
-// Copyright-Spanne, berechnet zur Bauzeit (die Site ist statisch); der
-// Jahres-Cron im Deploy-Workflow baut jährlich neu, damit sie aktuell bleibt.
+// Copyright range, computed at build time (the site is static); the yearly
+// cron in the deploy workflow rebuilds each January to keep it current.
 const foundingYear = 2026;
 const currentYear = new Date().getFullYear();
 const yearRange =
   currentYear > foundingYear ? `${foundingYear}–${currentYear}` : `${foundingYear}`;
 
-// Dieses Layout wird von Markdown-/MDX-Seiten über `layout:` im Frontmatter
-// genutzt; die Sprache kommt aus der URL (Astro-i18n), Titel und
-// Übersetzungs-URL aus dem Frontmatter der jeweiligen Seite.
+// This layout is used by Markdown/MDX pages via `layout:` in the
+// frontmatter; the language comes from the URL (Astro i18n), title and
+// translation URL from the page's frontmatter.
 const lang = (Astro.currentLocale ?? 'en') as Lang;
 const fm = Astro.props.frontmatter ?? Astro.props;
 const title: string = fm.title;
 const description: string | undefined = fm.description;
-// URL der Übersetzung dieser Seite. Fehlt sie (Seite existiert nur in einer
-// Sprache), führt der Sprachwechsler zur Startseite der anderen Sprache —
-// dasselbe Verhalten hatte die Nikola-Site.
+// URL of this page's translation. If missing (page exists in one language
+// only), the language switcher leads to the other language's home page —
+// the same behavior the Nikola site had.
 const translation: string | undefined = fm.translation;
 
 const other = otherLang[lang];

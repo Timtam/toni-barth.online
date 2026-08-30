@@ -9,7 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "preview:sprachweiche": "node scripts/preview-sprachweiche.mjs",
+    "preview:language-switch": "node scripts/preview-language-switch.mjs",
     "astro": "astro",
     "lint": "eslint ."
   },

@@ -8,23 +8,24 @@ import htmlValidate from 'astro-html-validate';
 export default defineConfig({
   site: 'https://toni-barth.online',
 
-  // Die Dev-Toolbar ist ein rein visuelles Overlay (hover-aktiviert, keine
-  // dokumentierte Screenreader-Bedienung). Ihre Prüf-Funktion übernehmen
-  // ESLint (jsx-a11y) und pa11y/axe als Text-Ausgabe im Terminal.
+  // The dev toolbar is a purely visual overlay (hover-activated, no
+  // documented screen reader interaction). Its audit role is covered by
+  // ESLint (jsx-a11y) and pa11y/axe as text output in the terminal.
   devToolbar: { enabled: false },
 
   integrations: [
     mdx(),
-    // Erzeugt beim Build /sitemap-index.xml (+ Teil-Sitemaps) inklusive
-    // hreflang-Sprachalternativen; referenziert aus public/robots.txt.
+    // Generates /sitemap-index.xml (+ partial sitemaps) at build time,
+    // including hreflang language alternates; referenced from
+    // public/robots.txt.
     sitemap({
       i18n: {
         defaultLocale: 'en',
         locales: { en: 'en', de: 'de' },
       },
     }),
-    // Validiert beim Build jede erzeugte Seite (kaputtes Markup beschädigt
-    // den Accessibility-Tree); Regeln in .htmlvalidate.json
+    // Validates every generated page at build time (broken markup damages
+    // the accessibility tree); rules live in .htmlvalidate.json
     htmlValidate(),
   ],
 
@@ -32,10 +33,10 @@ export default defineConfig({
     locales: ['en', 'de'],
     defaultLocale: 'en',
     routing: {
-      // Beide Sprachen bekommen ein URL-Präfix (/en/…, /de/…), damit jede
-      // Sprache garantiert fest verlinkbar ist. Die Wurzel `/` bleibt ein
-      // neutraler Einstieg: in Produktion macht nginx dort den
-      // Accept-Language-Redirect, als Fallback dient src/pages/index.astro.
+      // Both languages get a URL prefix (/en/…, /de/…) so every language is
+      // guaranteed to be firmly linkable. The root `/` stays a neutral entry
+      // point: in production nginx performs the Accept-Language redirect
+      // there, with src/pages/index.astro as the fallback.
       prefixDefaultLocale: true,
       redirectToDefaultLocale: false,
     },

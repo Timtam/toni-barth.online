@@ -1,4 +1,4 @@
-// Englische Fassung. Bauen (vom Repo-Root aus):
+// English version. Build (from the repo root):
 //   PDF:  typst compile --root . --pdf-standard ua-1,a-2a cv-typst/cv-en.typ CV_Toni_Barth.pdf
 //   HTML: typst compile --root . --features html --format html cv-typst/cv-en.typ resume-en.html
 #import "/cv-typst/jsonresume.typ": cv, setup

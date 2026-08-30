@@ -1,13 +1,13 @@
 # toni-barth.online
-# Suchmaschinen sind willkommen.
+# Search engines are welcome.
 User-agent: *
 Allow: /
 
-# KI-Modell-TRAINING ist nicht erwuenscht. KI-SUCHE bleibt dagegen erlaubt
-# (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, Perplexity
-# stehen bewusst NICHT in dieser Sperrliste), damit die Seite in
-# KI-Suchergebnissen zitierbar ist. Hinweis: robots.txt ist eine Bitte, keine
-# technische Sperre -- grosse Anbieter halten sich daran, Scraper nicht.
+# AI model TRAINING is not welcome. AI SEARCH stays allowed (OAI-SearchBot,
+# ChatGPT-User, Claude-SearchBot, Claude-User and Perplexity are deliberately
+# NOT on this block list) so the site remains citable in AI search results.
+# Note: robots.txt is a request, not a technical barrier -- major providers
+# honor it, rogue scrapers do not.
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: anthropic-ai

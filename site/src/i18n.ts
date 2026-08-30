@@ -38,9 +38,9 @@ export const ui: Record<
 type NavLink = { label: string; href: string };
 type NavEntry = NavLink | { label: string; children: NavLink[] };
 
-// Entspricht NAVIGATION_LINKS aus der Nikola-conf.py. Die Navigation ist wie
-// im Original pro Sprache unterschiedlich (Music nur en, Externe Beiträge und
-// Impressum nur de).
+// Mirrors NAVIGATION_LINKS from the old Nikola conf.py. As in the original,
+// the navigation differs per language (Music is en-only; Externe Beiträge and
+// Impressum are de-only).
 export const navigation: Record<Lang, NavEntry[]> = {
   en: [
     { label: 'Home', href: '/en/' },
