@@ -23,6 +23,9 @@ RUN case "$BUILDARCH" in \
 WORKDIR /app
 COPY cv/ cv/
 COPY cv-typst/ cv-typst/
+# The template embeds the profile photo from the site's asset directory
+# (single source shared with the web pages).
+COPY site/src/assets/ site/src/assets/
 RUN mkdir -p site/public site/src/generated && bash cv-typst/build.sh
 
 # ---- Site builder ----------------------------------------------------------
