@@ -120,7 +120,12 @@
   // vor. Voraussetzung: Kein bestehender Link zeigt eine rohe URL als
   // Linktext an (dafür sorgt link-host), sonst entstünden verschachtelte
   // Links, die PDF/UA-1 verbietet.
-  show regex("https?://[^\\s]+[^\\s.,:;)!?]"): it => link(it.text)
+  // Im PDF zusätzlich in box(): verhindert Zeilenumbruch mitten im Link
+  // (fragmentierte Link-Annotationen werden von Screenreadern doppelt
+  // angesagt); der Link rutscht stattdessen als Ganzes auf die nächste Zeile.
+  show regex("https?://[^\\s]+[^\\s.,:;)!?]"): it => context {
+    if target() == "paged" { box(link(it.text)) } else { link(it.text) }
+  }
 
   body
 }
@@ -185,10 +190,7 @@
       // Listenzeile und Link), und alle Linknamen sind sprechend/eindeutig.
       html.elem("div", attrs: (class: "resume-contact"), list(..contact.map(c => {
         let (clabel, dest, value) = c
-        // Geschütztes Leerzeichen nach dem Label: Innerhalb von tel:-Links
-        // müssen alle Leerzeichen non-breaking sein (html-validate-Regel),
-        // und umbrechen soll hier ohnehin nichts.
-        if dest == none { [#value] } else { link(dest)[#clabel:\u{a0}#value] }
+        if dest == none { [#value] } else { [#clabel: #link(dest)[#value]] }
       })))
     }
   } else {
@@ -201,16 +203,21 @@
         // Kompakte zweispaltige Kontaktübersicht; bleibt semantisch eine
         // Liste (nur die Aufzählungszeichen sind ausgeblendet). Im PDF steht
         // das Label vor dem Link (nur der Wert ist unterstrichen/farbig).
+        // box() hält jeden Link auf einer Zeile: Ein über den Zeilenumbruch
+        // laufender Link zerfällt im PDF sonst in zwei Link-Annotationen,
+        // die Screenreader als zwei anklickbare Links ansagen.
         let contact-lines = contact.map(c => {
           let (clabel, dest, value) = c
-          if dest == none { [#value] } else { [#clabel: #link(dest)[#value]] }
+          if dest == none { [#value] } else { [#clabel: #box(link(dest)[#value])] }
         })
         block(above: 0.9em, {
           set text(size: 9.3pt)
           set list(marker: none, indent: 0pt, body-indent: 0pt, spacing: 0.55em)
           let half = calc.ceil(contact-lines.len() / 2)
           grid(
-            columns: (1fr, 1fr),
+            // auto: linke Spalte so breit wie ihr längster Eintrag (die
+            // E-Mail-Zeile), damit dort nichts umbrechen muss
+            columns: (auto, 1fr),
             column-gutter: 2em,
             list(..contact-lines.slice(0, half)),
             if contact-lines.len() > half { list(..contact-lines.slice(half)) },

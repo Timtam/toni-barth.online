@@ -7,7 +7,7 @@
 #let data = json("/cv/en.json")
 
 #set document(
-  title: data.basics.name + " — " + locales.en.doc-title-suffix,
+  title: locales.en.doc-title-suffix + " — " + data.basics.name,
   author: data.basics.name,
 )
 #set text(lang: "en")

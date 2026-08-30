@@ -43,7 +43,7 @@ const absolute = (path: string) => new URL(path, Astro.site).href;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} | {siteTitle}</title>
+    <title>{title} – {siteTitle}</title>
     {description && <meta name="description" content={description} />}
     <link rel="alternate" hreflang={lang} href={absolute(currentPath)} />
     {
