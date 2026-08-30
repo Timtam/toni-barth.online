@@ -20,8 +20,10 @@ const types = {
   '.txt': 'text/plain; charset=utf-8',
 };
 
-// Alte Nikola-URLs (Englisch lag ohne Präfix) → neue /en/-Pfade
-const legacyEnglish = /^\/(music|teaching|gear|contact|support|privacy-policy)(\/|$)/;
+// Alte Nikola-URLs (lagen ohne Präfix): zweisprachige Seiten verhandeln die
+// Sprache, nur-englische gehen fest nach /en/ (Spiegel von nginx/default.conf)
+const legacyBilingual = /^\/(teaching|gear|contact|support|privacy-policy)(\/|$)/;
+const legacyEnglishOnly = /^\/(music|resume)(\/|$)/;
 
 createServer(async (req, res) => {
   let path;
@@ -45,7 +47,13 @@ createServer(async (req, res) => {
     return;
   }
 
-  if (legacyEnglish.test(path)) {
+  if (legacyBilingual.test(path)) {
+    const acceptLanguage = req.headers['accept-language'] ?? '';
+    const prefix = /^de/i.test(acceptLanguage) ? '/de' : '/en';
+    res.writeHead(302, { Location: prefix + path, Vary: 'Accept-Language' }).end();
+    return;
+  }
+  if (legacyEnglishOnly.test(path)) {
     res.writeHead(301, { Location: '/en' + path }).end();
     return;
   }

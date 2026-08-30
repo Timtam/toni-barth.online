@@ -1,6 +1,11 @@
 on:
   push:
     branches: master
+  schedule:
+    # Jaehrlich am 2. Januar neu bauen, damit die zur Bauzeit berechnete
+    # Copyright-Jahresspanne im Footer aktuell bleibt.
+    - cron: "17 3 2 1 *"
+  workflow_dispatch:
 
 jobs:
   push_to_registry:

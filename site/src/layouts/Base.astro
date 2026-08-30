@@ -13,6 +13,13 @@ import {
 // Site-weites Vorschaubild für Link-Previews (Mastodon, LinkedIn …)
 const ogImage = await getImage({ src: profilePic, format: 'jpeg' });
 
+// Copyright-Spanne, berechnet zur Bauzeit (die Site ist statisch); der
+// Jahres-Cron im Deploy-Workflow baut jährlich neu, damit sie aktuell bleibt.
+const foundingYear = 2026;
+const currentYear = new Date().getFullYear();
+const yearRange =
+  currentYear > foundingYear ? `${foundingYear}–${currentYear}` : `${foundingYear}`;
+
 // Dieses Layout wird von Markdown-/MDX-Seiten über `layout:` im Frontmatter
 // genutzt; die Sprache kommt aus der URL (Astro-i18n), Titel und
 // Übersetzungs-URL aus dem Frontmatter der jeweiligen Seite.
@@ -97,7 +104,7 @@ const absolute = (path: string) => new URL(path, Astro.site).href;
       <slot />
     </main>
     <footer>
-      <p>© {new Date().getFullYear()} {siteTitle}</p>
+      <p>© {yearRange} {siteTitle}</p>
     </footer>
   </body>
 </html>
