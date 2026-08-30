@@ -67,16 +67,18 @@
   parts.pos().filter(p => p != none).join([ · ])
 }
 
-// Link mit kurzem, eindeutigem Linktext statt roher URL: Domain samt Pfad,
-// solange das kompakt bleibt (z. B. "github.com/Timtam/ReaLackey"), sonst
-// nur die Domain (z. B. "thinkmind.org").
-#let link-host(url) = {
+// Kurzer, eindeutiger Anzeigetext für eine URL: Domain samt Pfad, solange das
+// kompakt bleibt (z. B. "github.com/Timtam/ReaLackey"), sonst nur die Domain
+// (z. B. "thinkmind.org").
+#let url-label(url) = {
   let stripped = url.split("//").at(1, default: url)
   if stripped.ends-with("/") { stripped = stripped.slice(0, stripped.len() - 1) }
   if stripped.starts-with("www.") { stripped = stripped.slice(4) }
-  let label = if stripped.len() <= 40 { stripped } else { stripped.split("/").at(0) }
-  link(url)[#label]
+  if stripped.len() <= 40 { stripped } else { stripped.split("/").at(0) }
 }
+
+// Link mit url-label als Linktext statt roher URL
+#let link-host(url) = link(url)[#url-label(url)]
 
 // ---- Dokument-Setup (Fonts, Überschriften-Stil) ----------------------------
 
@@ -129,23 +131,24 @@
 #let render-header(loc, b, is-html) = {
   let label = getstr(b, "label")
 
+  // Kontakt als Daten-Tupel (Label, Linkziel, Anzeigewert); Linkziel none =
+  // reiner Text. Zusammengesetzt wird pro Zielformat unten.
   let contact = ()
   let email = getstr(b, "email")
-  if email != none { contact.push([#loc.email: #link("mailto:" + email)[#email]]) }
+  if email != none { contact.push((loc.email, "mailto:" + email, email)) }
   let phone = getstr(b, "phone")
   if phone != none {
     // Geschützte Leerzeichen in der angezeigten Nummer verhindern hässliche
     // Zeilenumbrüche mitten in der Telefonnummer.
-    let phone-display = phone.replace(" ", "\u{a0}")
-    contact.push([#loc.phone: #link("tel:" + phone.replace(" ", ""))[#phone-display]])
+    contact.push((loc.phone, "tel:" + phone.replace(" ", ""), phone.replace(" ", "\u{a0}")))
   }
   let url = getstr(b, "url")
-  if url != none { contact.push([#loc.website: #link-host(url)]) }
+  if url != none { contact.push((loc.website, url, url-label(url))) }
   for p in b.at("profiles", default: ()) {
     let network = getstr(p, "network")
     let purl = getstr(p, "url")
     if network != none and purl != none {
-      contact.push([#network: #link(purl)[#getstr(p, "username")]])
+      contact.push((network, purl, getstr(p, "username")))
     }
   }
   let location = b.at("location", default: (:))
@@ -157,7 +160,7 @@
     (getstr(location, "address"), plz-city, country)
       .filter(x => x != none and x != "").join(", ")
   }
-  if city != none and city != "" { contact.push(city) }
+  if city != none and city != "" { contact.push((none, none, city)) }
 
   if is-html {
     // Im HTML-Target liefert die einbettende Seite die H1; der Name wird als
@@ -177,7 +180,16 @@
     par(strong(b.name))
     if label != none { par(emph(label)) }
     if contact.len() > 0 {
-      html.elem("div", attrs: (class: "resume-contact"), list(..contact))
+      // Jeder Eintrag ist EIN Link mit dem Label im Linktext: ein Element,
+      // eine Screenreader-Ansage (verhindert das Doppel-Vorlesen von
+      // Listenzeile und Link), und alle Linknamen sind sprechend/eindeutig.
+      html.elem("div", attrs: (class: "resume-contact"), list(..contact.map(c => {
+        let (clabel, dest, value) = c
+        // Geschütztes Leerzeichen nach dem Label: Innerhalb von tel:-Links
+        // müssen alle Leerzeichen non-breaking sein (html-validate-Regel),
+        // und umbrechen soll hier ohnehin nichts.
+        if dest == none { [#value] } else { link(dest)[#clabel:\u{a0}#value] }
+      })))
     }
   } else {
     let text-part = {
@@ -187,16 +199,21 @@
       }
       if contact.len() > 0 {
         // Kompakte zweispaltige Kontaktübersicht; bleibt semantisch eine
-        // Liste (nur die Aufzählungszeichen sind ausgeblendet).
+        // Liste (nur die Aufzählungszeichen sind ausgeblendet). Im PDF steht
+        // das Label vor dem Link (nur der Wert ist unterstrichen/farbig).
+        let contact-lines = contact.map(c => {
+          let (clabel, dest, value) = c
+          if dest == none { [#value] } else { [#clabel: #link(dest)[#value]] }
+        })
         block(above: 0.9em, {
           set text(size: 9.3pt)
           set list(marker: none, indent: 0pt, body-indent: 0pt, spacing: 0.55em)
-          let half = calc.ceil(contact.len() / 2)
+          let half = calc.ceil(contact-lines.len() / 2)
           grid(
             columns: (1fr, 1fr),
             column-gutter: 2em,
-            list(..contact.slice(0, half)),
-            if contact.len() > half { list(..contact.slice(half)) },
+            list(..contact-lines.slice(0, half)),
+            if contact-lines.len() > half { list(..contact-lines.slice(half)) },
           )
         })
       }
