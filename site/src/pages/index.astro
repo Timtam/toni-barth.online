@@ -1,0 +1,44 @@
+---
+// Neutraler Einstiegspunkt unter `/`.
+// In Produktion leitet nginx hier anhand des Accept-Language-Headers per 302
+// direkt auf /en/ bzw. /de/ um (siehe nginx/default.conf im Repo-Root).
+// Diese Seite ist der barrierefreie Fallback für alle anderen Fälle.
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toni Barth</title>
+    <link rel="alternate" hreflang="en" href="https://toni-barth.online/en/" />
+    <link rel="alternate" hreflang="de" href="https://toni-barth.online/de/" />
+  </head>
+  <body>
+    <main>
+      <h1>Toni Barth</h1>
+      <p>Please choose your language.</p>
+      <p lang="de">Bitte wähle deine Sprache.</p>
+      <ul>
+        <li><a href="/en/">English</a></li>
+        <li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
+
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 75ch;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  a:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 2px;
+  }
+</style>

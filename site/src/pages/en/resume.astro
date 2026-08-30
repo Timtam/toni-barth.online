@@ -1,0 +1,56 @@
+---
+// Bettet das von Typst aus cv/en.json erzeugte semantische HTML ein.
+// Regenerieren: cv-typst/build.ps1 (bzw. build.sh) im Repo-Root ausführen.
+import { getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import profilePic from '../../assets/profile.jpg';
+import raw from '../../generated/resume-en.html?raw';
+
+// Typst kennt Astros gehashte Asset-URLs nicht und emittiert das Foto mit dem
+// symbolischen Pfad aus der JSON; hier wird es auf die optimierte Variante
+// umgeschrieben (dieselbe Quelldatei wie im PDF: src/assets/profile.jpg).
+const photo = await getImage({ src: profilePic, width: 304 });
+
+// Nur den Body-Inhalt übernehmen; Head/Titel liefert das Site-Layout.
+const body = raw
+  .replace(/^[\s\S]*?<body>/, '')
+  .replace(/<\/body>[\s\S]*$/, '')
+  .replace(
+    'src="/images/profile.jpg"',
+    `src="${photo.src}" width="${photo.attributes.width}" height="${photo.attributes.height}"`,
+  );
+---
+
+<Base title="Resumé">
+  <h1>Resumé</h1>
+  <p>
+    <a href="/CV_Toni_Barth.pdf"
+      >Download as accessible, tagged PDF (PDF/UA-1, English)</a
+    >
+  </p>
+  <Fragment set:html={body} />
+</Base>
+
+<style is:global>
+  /* Layout-Angleichung an das PDF: Foto oben rechts, Kontakte zweispaltig.
+     Die Klassen kommen aus dem Typst-HTML-Export (cv-typst/jsonresume.typ). */
+  .resume-photo {
+    float: right;
+    width: 9.5rem;
+    height: auto;
+    border-radius: 6px;
+    margin: 0 0 1rem 1.5rem;
+  }
+  .resume-contact ul {
+    columns: 2;
+    column-gap: 2rem;
+  }
+  @media (max-width: 40rem) {
+    .resume-contact ul {
+      columns: 1;
+    }
+  }
+  main h2 {
+    clear: both;
+  }
+</style>

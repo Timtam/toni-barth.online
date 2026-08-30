@@ -1,0 +1,33 @@
+{
+  "name": "astro-poc",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "preview:sprachweiche": "node scripts/preview-sprachweiche.mjs",
+    "astro": "astro",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^7.0.8",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.2.9",
+    "astro-html-validate": "^1.0.1"
+  },
+  "allowScripts": {
+    "esbuild": true
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.68.0",
+    "eslint": "^10.9.1",
+    "eslint-plugin-astro": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "html-validate": "^11.10.0",
+    "typescript": "^6.0.3"
+  }
+}

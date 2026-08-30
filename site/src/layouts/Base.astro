@@ -1,0 +1,217 @@
+---
+import { getImage } from 'astro:assets';
+import profilePic from '../assets/profile.jpg';
+import {
+  navigation,
+  ui,
+  siteTitle,
+  otherLang,
+  langNames,
+  type Lang,
+} from '../i18n';
+
+// Site-weites Vorschaubild für Link-Previews (Mastodon, LinkedIn …)
+const ogImage = await getImage({ src: profilePic, format: 'jpeg' });
+
+// Dieses Layout wird von Markdown-/MDX-Seiten über `layout:` im Frontmatter
+// genutzt; die Sprache kommt aus der URL (Astro-i18n), Titel und
+// Übersetzungs-URL aus dem Frontmatter der jeweiligen Seite.
+const lang = (Astro.currentLocale ?? 'en') as Lang;
+const fm = Astro.props.frontmatter ?? Astro.props;
+const title: string = fm.title;
+const description: string | undefined = fm.description;
+// URL der Übersetzung dieser Seite. Fehlt sie (Seite existiert nur in einer
+// Sprache), führt der Sprachwechsler zur Startseite der anderen Sprache —
+// dasselbe Verhalten hatte die Nikola-Site.
+const translation: string | undefined = fm.translation;
+
+const other = otherLang[lang];
+const t = ui[lang];
+const otherUrl = translation ?? t.otherHome;
+const currentPath = Astro.url.pathname;
+const absolute = (path: string) => new URL(path, Astro.site).href;
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | {siteTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="alternate" hreflang={lang} href={absolute(currentPath)} />
+    {
+      translation && (
+        <link rel="alternate" hreflang={other} href={absolute(translation)} />
+      )
+    }
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={absolute(currentPath)} />
+    <meta property="og:image" content={absolute(ogImage.src)} />
+    <meta property="og:image:alt" content={t.photoAlt} />
+    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_US'} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.skipLink}</a>
+    <header>
+      <p class="site-title">{siteTitle}</p>
+      <p class="lang-switch">
+        {t.langLabel}: {langNames[lang]} |
+        <a href={otherUrl} lang={other} hreflang={other}>{langNames[other]}</a>
+      </p>
+      <nav aria-label={t.navLabel}>
+        <ul>
+          {
+            navigation[lang].map((entry) =>
+              'children' in entry ? (
+                <li>
+                  <details>
+                    <summary>{entry.label}</summary>
+                    <ul>
+                      {entry.children.map((child) => (
+                        <li>
+                          <a href={child.href}>{child.label}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </li>
+              ) : (
+                <li>
+                  <a
+                    href={entry.href}
+                    aria-current={currentPath === entry.href ? 'page' : undefined}
+                  >
+                    {entry.label}
+                  </a>
+                </li>
+              )
+            )
+          }
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <p>© {new Date().getFullYear()} {siteTitle}</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --bg-alt: #f2f2f2;
+    --fg: #1a1a1a;
+    --link: #0b57d0;
+    --border: #767676;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --bg-alt: #1f1f1f;
+      --fg: #e8e8e8;
+      --link: #8ab4f8;
+      --border: #9e9e9e;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 75ch;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--fg);
+  }
+  a {
+    color: var(--link);
+  }
+  :focus-visible {
+    outline: 3px solid var(--link);
+    outline-offset: 2px;
+  }
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--bg);
+    padding: 0.5rem 1rem;
+  }
+  .skip-link:focus {
+    left: 0;
+    z-index: 1;
+  }
+  .site-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  header nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+  }
+  header nav details ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  header nav summary {
+    cursor: pointer;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  th,
+  td {
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--bg-alt);
+  }
+  main details {
+    margin: 1rem 0;
+    border: 1px solid var(--border);
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+  main summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .audio-embed {
+    margin: 1rem 0;
+  }
+  .audio-embed audio {
+    width: 100%;
+  }
+  footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.5rem;
+  }
+</style>

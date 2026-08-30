@@ -1,4 +1,5 @@
-/cv/node_modules
-/toni-barth.online/__pycache__
-/toni-barth.online/cache
-/toni-barth.online/output
+.git
+site/node_modules
+site/dist
+site/.astro
+cv/node_modules

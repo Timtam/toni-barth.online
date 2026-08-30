@@ -1,2 +1,4 @@
-/toni-barth.online/cache
-/toni-barth.online/output
+/site/node_modules
+/site/dist
+/site/.astro
+/cv/node_modules

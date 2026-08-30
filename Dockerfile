@@ -1,16 +1,23 @@
-FROM python:3.12 AS builder
+# Baut die Astro-Site (site/) und liefert sie über nginx aus.
+# Die CV-Artefakte (PDF/UA-1 + eingebettetes Resume-HTML) werden vor dem
+# Docker-Build erzeugt (cv-typst/build.sh, siehe GitHub-Workflow) und liegen
+# dann in site/public bzw. site/src/generated im Build-Kontext.
+FROM node:24-alpine AS builder
 
-# Copy the whole repository into Docker container
-COPY toni-barth.online/ . 
+WORKDIR /app
 
-# Build the blog
-RUN pip install nikola jinja2 \
-    && nikola build
+COPY site/package.json site/package-lock.json ./
+# --omit=dev: ESLint & Co. werden im Image nicht gebraucht;
+# --legacy-peer-deps wegen des eslint-plugin-jsx-a11y-Peer-Konflikts.
+RUN npm ci --omit=dev --legacy-peer-deps
+
+COPY site/ .
+RUN npm run build
 
 FROM nginx:alpine
 
-# Copy output to the default nginx directory
-COPY --from=builder output /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copy nginx host configuration
+# nginx-Konfiguration inkl. Accept-Language-Sprachweiche auf / und
+# Redirects der alten URL-Pfade
 COPY nginx/default.conf /etc/nginx/conf.d/

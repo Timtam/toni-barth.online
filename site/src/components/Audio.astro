@@ -1,0 +1,34 @@
+---
+// Ersatz für den Nikola-Shortcode `{{% audio %}}` (shortcodes/audio.tmpl).
+// Nutzung in .mdx-Dateien:
+//   import Audio from '../../components/Audio.astro';
+//   <Audio src="https://example.com/episode.mp3" nodownload />
+interface Props {
+  src: string;
+  /** Beschriftung vor dem Download-Link */
+  downloadLabel?: string;
+  /** Download-Link ausblenden (wie `nodownload=1` im alten Shortcode) */
+  nodownload?: boolean;
+}
+
+const { src, downloadLabel = 'Download:', nodownload = false } = Astro.props;
+const ext = src.includes('.') ? src.slice(src.lastIndexOf('.') + 1) : '';
+---
+
+<div class="audio-embed">
+  {/* eslint-disable-next-line astro/jsx-a11y/media-has-caption --
+      Externe Podcast-Episoden ohne verfügbare Untertitel-Datei; der Link zur
+      Episodenseite (mit Shownotes) steht jeweils direkt über dem Player. */}
+  <audio controls>
+    <source src={src} type={ext ? `audio/${ext}` : undefined} />
+    Dein Browser unterstützt das <code>audio</code>-Element leider nicht.
+    <a href={src}>Audiodatei direkt öffnen</a>
+  </audio>
+  {
+    !nodownload && (
+      <p class="download-links">
+        <strong>{downloadLabel}</strong> <a href={src}>{ext.toUpperCase()}</a>
+      </p>
+    )
+  }
+</div>
